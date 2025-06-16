@@ -1,9 +1,9 @@
-import NavBar from "@/components/NavBar";
 import "@/styles/globals.css";
 import { Junge } from "next/font/google";
 import { Bayon } from "next/font/google";
 import Head from "next/head";
 import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar";
 
 const junge = Junge({
   subsets: ["latin"],
