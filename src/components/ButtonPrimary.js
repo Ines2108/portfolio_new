@@ -10,9 +10,7 @@ const Button = ({ text, className = "", href = "#" }) => {
         group-hover:translate-x-0 group-hover:translate-y-0 group-hover:skew-x-0 group-hover:skew-y-0"></span>
       <span className="absolute inset-0 w-full h-full bg-white border-2 border-secundary group-hover:bg-secundary"></span>
       <span className="relative text-secundary group-hover:text-white">
-        <Link href={href} target="_blank">
-          {text}
-        </Link>
+        <Link href={href}>{text}</Link>
       </span>
     </button>
   );

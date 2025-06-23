@@ -118,12 +118,12 @@ export default function Home() {
           </div>
         </Layout>
 
-        {/* Easter Egg bleibt außerhalb, sichtbar auf allen Geräten */}
+        {/* Easter Egg bleibt außerhalb, sichtbar auf allen Geräten
         <div className="absolute right-8 -bottom-20">
           <Popup text="🎉 Du hast das Easter Egg gefunden!">
             <EasterEgg />
           </Popup>
-        </div>
+        </div> */}
       </main>
     </>
   );

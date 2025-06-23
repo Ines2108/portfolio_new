@@ -24,9 +24,9 @@ const about = () => {
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
-          <AnimatedHeadline text="This Is Me" className="text-primary" />
+          <AnimatedHeadline text="Das bin ich" className="text-primary" />
           {/* About Section */}
-          <section className="about-section relative max-w-[1800px] w-full mx-auto flex flex-col-reverse lg:flex-row items-center lg:items-start mt-10 mb-16">
+          <section className="about-section relative max-w-[1800px] w-full mx-auto flex flex-col-reverse lg:flex-row items-center lg:items-start mt-10 mb-44 md:mb-32">
             <div className="w-full h-full self-center lg:w-1/2 flex justify-center lg:justify-start pl-0 xl:pl-16 xxl:pl-36">
               <PolaroidImages />
             </div>
@@ -34,7 +34,7 @@ const about = () => {
               <AboutText />
             </div>
           </section>
-          <section className="techStack-section relative w-full">
+          <section className="techStack-section relative w-full my-16 md:my-32">
             <Skills />
           </section>
           <section className="cv-section relative max-w-[1500px] w-full mx-auto justify-center">

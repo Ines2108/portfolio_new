@@ -8,7 +8,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
   return (
     <li
       ref={ref}
-      className="my-8 font-sans first:mt-0 last:mb-0 w-[80%] md:w-[60%] mx-auto flex flex-col items-center justify-between">
+      className="my-8 font-sans first:mt-0 last:mb-0 w-[80%] md:w-[60%] mx-auto flex flex-col items-start justify-between">
       <LiIcon reference={ref} />
       <motion.div
         initial={{ y: 50 }}
@@ -26,7 +26,10 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <span className="capitalize font-medium text-dark/75 text-sm md:text-base">
           {time} | {address}
         </span>
-        <p className="font-medium w-full text-sm md:text-base">{work}</p>
+        <p
+          className="font-medium w-full text-sm md:text-base"
+          dangerouslySetInnerHTML={{ __html: work }}
+        />
       </motion.div>
     </li>
   );
@@ -42,7 +45,7 @@ const Experience = () => {
   return (
     <div className="my-16">
       <h2 className="text-5xl md:text-6xl lg:text-8xl text-primary font-bold text-center mb-16">
-        Experience
+        Meine Praxis-Power
       </h2>
       <div ref={ref} className="w-full mx-auto relative lg:w-[90%] md:w-[75%]">
         <motion.div
@@ -53,74 +56,71 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-2 md:ml-4">
           <Details
-            position="Intern Frontend"
+            position="Praktikum Frontend"
             company="Netural GmbH"
             companyLink="https://www.netural.com/"
-            time="Aug.2024 - Dec. 2024"
+            time="Aug. 2024 - Dez. 2024"
             address="Peter-Behrens-Platz 2, 4020 Linz"
-            work="I developed web applications using frameworks like Angular, Tailwind, and Dcupl, 
-            working extensively with TypeScript, JavaScript, and CSS. As part of a client project, 
-            I was involved in the entire agile process, from conceptualization to coordination and collaboration with the client."
+            work="Entwicklung von Webanwendungen mit Angular, Tailwind und Dcupl <br>
+            Intensive Arbeit mit TypeScript, JavaScript und CSS <br>
+            Mitwirkung im agilen Projektprozess: von der Konzeption bis zur Koordination und Abstimmung mit dem Kunden"
           />
           <Details
             position="Frontend Developer"
             company="CAP.future GmbH"
             companyLink="https://grandgarage.eu/"
-            time="Oct. 2021 - Aug. 2024"
+            time="Okt. 2021 - Aug. 2024"
             address="Peter-Behrens-Platz 6, 4020 Linz"
-            work="Implementation of new features for the company website, creation of
-            mockups, design implementation, CMS management (Storyblok), bug
-            fixing"
+            work="Implementierung neuer Features für die Firmenwebsite <br>
+            Konzeption von Mockups und Umsetzung der Designs <br>
+            Betreuung des CMS (Storyblok) und Bugfixing"
           />
           <Details
-            position="Frontend Developer"
+            position="Prozessoptimiererin Finanzen"
             company="CAP.future GmbH"
             companyLink="https://grandgarage.eu/"
-            time="Oct. 2021 - Aug. 2024"
+            time="März 2021 - Aug. 2021"
             address="Peter-Behrens-Platz 6, 4020 Linz"
-            work="Implementation of new features for the company website, creation of
-            mockups, design implementation, CMS management (Storyblok), bug
-            fixing"
+            work="Eigenständige Abwicklung der gesamten Buchhaltung <br>
+Analyse und Optimierung interner Finanzprozesse zur Effizienzsteigerung"
           />
           <Details
-            position="Frontend Developer"
-            company="CAP.future GmbH"
-            companyLink="https://grandgarage.eu/"
-            time="Oct. 2021 - Aug. 2024"
-            address="Peter-Behrens-Platz 6, 4020 Linz"
-            work="Implementation of new features for the company website, creation of
-            mockups, design implementation, CMS management (Storyblok), bug
-            fixing"
+            position="Bilanzbuchhalterin"
+            company="Intersport Austria GmbH"
+            companyLink="https://www.intersport.at"
+            time="Jan. 2019 - Dez. 2020"
+            address="Flugplatzstraße 10, 4600 Wels"
+            work="Durchführung der Anlagenbuchhaltung und Umsatzsteuervoranmeldung <br>
+            Erstellung von Rohbilanzen von 19 Franchise-Unternehmen <br>
+            Schnittstelle zu Steuerberater*innen und Finanzbehörden"
           />
           <Details
-            position="Frontend Developer"
-            company="CAP.future GmbH"
-            companyLink="https://grandgarage.eu/"
-            time="Oct. 2021 - Aug. 2024"
-            address="Peter-Behrens-Platz 6, 4020 Linz"
-            work="Implementation of new features for the company website, creation of
-            mockups, design implementation, CMS management (Storyblok), bug
-            fixing"
+            position="Buchhalterin / Bilanzbuchhalterin"
+            company="Hofer KG"
+            companyLink="https://www.hofer.at/de/homepage.html"
+            time="Nov. 2015 - Aug. 2018"
+            address="Hofer Straße 3, 4642 Sattledt"
+            work="Mitarbeit bei der Einführung von SAP S/4HANA und SAP Ariba <br>
+            Bearbeitung von Eingangsrechnungen <br>
+            Betreuung der internen HOT-Prozesse und Hofer-Direktzustellung"
           />
           <Details
-            position="Frontend Developer"
-            company="CAP.future GmbH"
-            companyLink="https://grandgarage.eu/"
-            time="Oct. 2021 - Aug. 2024"
-            address="Peter-Behrens-Platz 6, 4020 Linz"
-            work="Implementation of new features for the company website, creation of
-            mockups, design implementation, CMS management (Storyblok), bug
-            fixing"
+            position="Buchhalterin"
+            company="LeitnerLeitner GmbH"
+            companyLink="https://www.leitnerleitner.com/leitnerleitner-linz/"
+            time="Nov. 2014 - Okt. 2015"
+            address="Kapuzinerstraße 38, 4020 Linz"
+            work="Durchführung der laufenden Buchhaltung (Eingangs- & Ausgangsrechnungen, Bank, Löhne, Zahllauf) <br>
+            Zuständig für die interne Buchhaltung der LeitnerLeitner GmbHg"
           />
           <Details
-            position="Frontend Developer"
-            company="CAP.future GmbH"
-            companyLink="https://grandgarage.eu/"
-            time="Oct. 2021 - Aug. 2024"
+            position="Medizinische Sekretärin"
+            company="Klinikum Wels-Grieskirchen"
+            companyLink="https://www.klinikum-wegr.at/de"
+            time="Nov. 2013 - Juni 2014"
             address="Peter-Behrens-Platz 6, 4020 Linz"
-            work="Implementation of new features for the company website, creation of
-            mockups, design implementation, CMS management (Storyblok), bug
-            fixing"
+            work="Erstellung medizinischer Dokumente (Arztbriefe, Anamnesen) nach Diktatg <br>
+            Patientenaufnahme und Administration am Empfang"
           />
         </ul>
       </div>

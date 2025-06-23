@@ -3,7 +3,7 @@ import { motion, useScroll } from "framer-motion";
 import { LinkedInIcon } from "./Icons";
 import LiIcon from "./LiIcon";
 
-const Details = ({ education, time, address, note }) => {
+const Details = ({ education, school, schoolLink, time, address, note }) => {
   const ref = useRef(null);
   return (
     <li
@@ -15,12 +15,21 @@ const Details = ({ education, time, address, note }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}>
         <h3 className="capitalize font-bold text-lg sm:text-xl md:text-2xl">
-          {education}
+          {education} &nbsp;
+          <a
+            href={schoolLink}
+            target="_blank"
+            className="text-secundary capitalize">
+            @{school}
+          </a>
         </h3>
         <span className="capitalize font-medium text-dark/75 text-sm md:text-base">
           {time} | {address}
         </span>
-        <p className="font-medium w-full text-sm md:text-base">{note}</p>
+        <p
+          className="font-medium w-full text-sm md:text-base"
+          dangerouslySetInnerHTML={{ __html: note }}
+        />
       </motion.div>
     </li>
   );
@@ -36,7 +45,7 @@ const Education = () => {
   return (
     <div className="mt-32 mb-80">
       <h2 className="text-5xl md:text-6xl lg:text-8xl text-primary font-bold text-center mb-16">
-        Education
+        Mein Wissensweg
       </h2>
       <div ref={ref} className="w-full mx-auto relative lg:w-[90%] md:w-[75%]">
         <motion.div
@@ -47,10 +56,29 @@ const Education = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-2 md:ml-4">
           <Details
-            education="Bachelor of Science in Communication and Knowledge Media"
-            time="Oct. 2022 - July 2025"
+            education="Bachelor of Science in Kommunikation, Wissen, Medien"
+            school="FH Hagenberg"
+            companyLink="https://fh-ooe.at/campus-hagenberg"
+            time="Okt. 2022 - Juli 2025"
             address="Softwarepark 11, 4232 Hagenberg"
-            note="Areas of Focus: Online Marketing, E-Learning, Web Development, Human-Computer-Interaction"
+            note="Schwerpunkte: Online Marketing, E-Learning, Web Development, Human-Computer-Interaction"
+          />
+          <Details
+            education="Bilanzbuchhalter- und Buchhalterprüfung"
+            time="Okt. 2015 - Juni 2018"
+            school="WIFI Wels"
+            companyLink="https://www.wifi-ooe.at/"
+            address="Dr.-Koss-Straße 4, 4600 Wels"
+            note="Beides mit sehr gutem Erfolg abgeschlossen"
+          />
+          <Details
+            education="HAK Matura"
+            time="Sept. 2008 - Juni 2013"
+            school="Bundeshandelsakademie I Wels"
+            companyLink="https://hakwels.at/bildungsangebot/hak/"
+            address="Stelzhamerstraße 20, 4600 Wels"
+            note="Mit gutem Erfolg abgeschlossen <br>
+            Schwerpunkt: Kommunikation und Sozialmanagement"
           />
         </ul>
       </div>

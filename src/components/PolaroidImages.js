@@ -3,11 +3,26 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 
 const images = [
-  "https://picsum.photos/300/400?1",
-  "https://picsum.photos/300/400?2",
-  "https://picsum.photos/300/400?3",
-  "https://picsum.photos/300/400?4",
-  "https://picsum.photos/300/400?5",
+  {
+    src: "/images/aboutMe/Ines_in_Australien.JPG",
+    alt: "Ines in Australien bei einem Abenteuer",
+  },
+  {
+    src: "/images/aboutMe/Ines_mit_Katzen.jpg",
+    alt: "Ines mit ihren zwei Katzen",
+  },
+  {
+    src: "/images/aboutMe/Ines_mit_Wein.JPG",
+    alt: "Ines genießt ein Glas Wein",
+  },
+  {
+    src: "/images/aboutMe/Ines_Tennis.jpg",
+    alt: "Ines beim Tennisspielen",
+  },
+  {
+    src: "/images/aboutMe/Ines_wandern.jpg",
+    alt: "Ines beim Wandern in den Bergen",
+  },
 ];
 
 const positionsSmall = [
@@ -30,7 +45,7 @@ const PolaroidImages = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const renderImages = (positions) =>
-    images.map((src, index) => (
+    images.map((img, index) => (
       <motion.div
         key={index}
         className={`absolute 
@@ -51,8 +66,8 @@ const PolaroidImages = () => {
         }}
         transition={{ type: "spring", stiffness: 200 }}>
         <Image
-          src={src}
-          alt="Polaroid"
+          src={img.src}
+          alt={img.alt}
           width={200}
           height={250}
           className={`transition-all duration-500 

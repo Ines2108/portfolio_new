@@ -103,7 +103,9 @@ const FeaturedProject = ({ type, title, summary, img, github }) => {
           <div className="w-[40%] flex flex-col text-justify">
             <span className="text-lg font-semibold text-primary">{type}</span>
             <h2 className="text-3xl font-bold mt-2">{title}</h2>
-            <p className="mt-2 text-gray-700 text-base">{summary}</p>
+            <p className="mt-2 text-gray-700 font-sans text-base line-clamp-5">
+              {summary}
+            </p>
             {github && (
               <Link
                 href={github}
@@ -151,7 +153,9 @@ const FeaturedProject = ({ type, title, summary, img, github }) => {
           <div className="w-[45%] text-justify">
             <span className="text-lg font-semibold text-primary">{type}</span>
             <h2 className="text-xl sm:text-2xl font-bold mt-2">{title}</h2>
-            <p className="mt-2 text-gray-700 text-sm sm:text-base">{summary}</p>
+            <p className="mt-2 text-gray-700 font-sans text-sm sm:text-base line-clamp-5">
+              {summary}
+            </p>
             {github && (
               <Link
                 href={github}
@@ -201,7 +205,7 @@ const FeaturedProject = ({ type, title, summary, img, github }) => {
             <h2 className="text-xl md:text-2xl font-bold mt-2 !text-right">
               {title}
             </h2>
-            <p className="mt-2 text-gray-700 text-sm md:text-base line-clamp-6">
+            <p className="mt-2 text-gray-700 font-sans text-sm md:text-base line-clamp-5">
               {summary}
             </p>
             {github && (

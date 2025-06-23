@@ -1,10 +1,9 @@
-// /pages/projects/index.js
 import Layout from "@/components/Layout";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import FeaturedProject from "@/components/FeaturedProject";
 import Projects from "@/components/Projects";
-import { projectsData } from "@/data/projectsData"; // Import Projektinfos
+import { projectsData } from "@/data/projectsData";
 import Link from "next/link";
 
 const AnimatedHeadline = dynamic(
@@ -39,7 +38,7 @@ const ProjectsPage = () => {
                         title={project.title}
                         img={project.img1}
                         summary={project.sections[0].text}
-                        type={project.sections[0].heading}
+                        type={project.type}
                       />
                     </Link>
                   </div>
@@ -48,12 +47,12 @@ const ProjectsPage = () => {
                 return (
                   <div
                     key={project.slug}
-                    className="col-span-1 xl:col-span-6 flex justify-center">
+                    className="col-span-1 xl:col-span-6 flex justify-center -mt-12">
                     <Link href={`/projects/${project.slug}`}>
                       <Projects
                         title={project.title}
                         img={project.img1}
-                        type={project.sections[0].heading}
+                        type={project.type}
                       />
                     </Link>
                   </div>

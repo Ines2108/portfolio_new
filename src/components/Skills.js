@@ -45,10 +45,10 @@ const Skills = () => {
   return (
     <div
       ref={sectionRef}
-      className="my-32 mx-auto w-full max-w-6xl px-4 md:px-8 lg:px-12">
+      className="mx-auto w-full max-w-6xl px-4 md:px-8 lg:px-12">
       <div className="flex flex-col items-center relative">
         <h2 className="text-5xl md:text-6xl lg:text-8xl text-primary font-bold text-center mb-8">
-          Skills
+          Mein digitaler Werkzeugkasten
         </h2>
 
         {/* Small screens */}
@@ -74,7 +74,7 @@ const Skills = () => {
               {techSkills.map((skill, index) => (
                 <motion.div
                   key={index}
-                  className="flex justify-center px-2 py-1 xs:px-4 xs:py-2 border xs:border-2 border-primary rounded bg-white text-primary text-xs xs:text-sm font-medium transition-colors duration-300 hover:bg-primary hover:text-white"
+                  className="flex justify-center px-4 py-2 border xs:border-2 border-primary rounded bg-white text-primary text-xs xs:text-sm font-medium transition-colors duration-300 hover:bg-primary hover:text-white"
                   whileHover={{ scale: 1.05 }}
                   transition={{ type: "spring", stiffness: 200 }}>
                   <div className="grayscale hover:grayscale-0 transition duration-500">
