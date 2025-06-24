@@ -1,11 +1,21 @@
 import React from "react";
+import Popup from "./Popup";
+import { easterEggData } from "@/data/easterEggData";
 
 const AboutText = () => {
   return (
     <>
       <div className="mt-4 lg:-mt-32 flex justify-end">
         <h2 className="w-5/6 text-2xl font-sans font-bold sm:text-3xl md:text-4xl lg:text-5xl text-primary text-right normal-case">
-          Hi, ich bin Ines, aber meine Kolleg*innen nennen mich auch ITnes.
+          Hi, ich bin Ines, aber meine Kolleg*innen nennen mich auch{" "}
+          <Popup
+            title={easterEggData.itnes.title}
+            text={easterEggData.itnes.text}
+            image={easterEggData.itnes.image}>
+            <span className="cursor-pointer hover:text-secundary transition">
+              ITnes
+            </span>
+          </Popup>
         </h2>
       </div>
       <div className="pt-4 font-sans text-base md:text-lg text-justify">

@@ -89,17 +89,19 @@ const NavBar = () => {
             toggle={handleClick}
           />
           <CustomLink
-            href="/projects"
-            title="Projects"
+            href="/projekte"
+            title="Projekte"
             className="ml-4"
             toggle={handleClick}
           />
         </nav>
         <nav className="flex items-center justify-center flex-wrap gap-4">
-          <a href="https://github.com" target={"_blank"}>
+          <a href="https://github.com/Ines2108" target={"_blank"}>
             <GithubIcon />
           </a>
-          <a href="https://linkedin.com" target={"_blank"}>
+          <a
+            href="https://www.linkedin.com/in/ines-niedermaier-48466a211/"
+            target={"_blank"}>
             <LinkedInIcon />
           </a>
         </nav>
@@ -125,8 +127,8 @@ const NavBar = () => {
               toggle={handleClick}
             />
             <CustomMobileLink
-              href="/projects"
-              title="Projects"
+              href="/projekte"
+              title="Projekte"
               className=""
               toggle={handleClick}
             />

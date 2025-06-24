@@ -69,20 +69,20 @@ const Projects = ({ type, title, img, github }) => {
       {/* Large (xl) */}
       <article
         ref={projectSectionRefLarge}
-        className="relative hidden xl:flex py-6 pr-16 justify-center min-h-[480px]">
+        className="relative hidden xl:flex py-8 pr-16 justify-center min-h-[500px]">
         <div
           ref={projectSvgRefLarge}
-          className="absolute inset-0 opacity-0 invisible w-full max-w-[1100px] mx-auto flex justify-center items-center">
+          className="absolute inset-0 mt-4 opacity-0 invisible w-full h-full max-w-[1100px] mx-auto flex justify-center items-center">
           <svg
             className="absolute inset-0 w-full h-full projects-svg-large"
-            viewBox="0 0 1100 1800"
+            viewBox="0 0 1100 1820"
             preserveAspectRatio="xMidYMid meet"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path
-              d="M4 650V5H1180V1760H100.95"
+              d="M4 650V5H1180V1780H110.95"
               stroke="#F85654"
-              strokeWidth="20"
+              strokeWidth="25"
               strokeMiterlimit="10"
             />
           </svg>
@@ -129,7 +129,7 @@ const Projects = ({ type, title, img, github }) => {
             <path
               d="M4 650V5H980V1580H100.95"
               stroke="#F85654"
-              strokeWidth="15"
+              strokeWidth="20"
               strokeMiterlimit="10"
             />
           </svg>

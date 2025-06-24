@@ -89,7 +89,7 @@ const ProjectDetailLayout = ({
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.15 }}
-                className="mb-16 max-w-xl">
+                className="mb-16 w-full xl:max-w-xl">
                 <h2
                   className="text-2xl font-bold mb-3 text-primary"
                   dangerouslySetInnerHTML={{ __html: section.heading }}></h2>
@@ -149,8 +149,8 @@ const ProjectDetailLayout = ({
             </a>
           </div>
         )}
-        <div className="w-full flex justify-end py-8">
-          <Button text="← Zu den Projekten" href="/projects" />
+        <div className="w-full flex justify-center xl:justify-end py-8">
+          <Button text="← Zu den Projekten" href="/projekte" />
         </div>
       </Layout>
     </main>

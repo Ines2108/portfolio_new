@@ -1,12 +1,12 @@
-// components/Popup.js
 import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Button from "./ButtonPrimary";
 
-const Popup = ({ children, text }) => {
+const Popup = ({ children, title, text, image, video }) => {
   const [isOpen, setIsOpen] = useState(false);
   const popupRef = useRef(null);
 
-  // Klick außerhalb schließt das Popup
+  // Klick außerhalb schließt Popup
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (popupRef.current && !popupRef.current.contains(event.target)) {
@@ -24,12 +24,12 @@ const Popup = ({ children, text }) => {
 
   return (
     <>
-      {/* Trigger */}
-      <div onClick={() => setIsOpen(true)} className="cursor-pointer z-10">
+      <div
+        onClick={() => setIsOpen(true)}
+        className="cursor-pointer z-10 inline-block">
         {children}
       </div>
 
-      {/* Popup Modal */}
       <AnimatePresence>
         {isOpen && (
           <>
@@ -44,17 +44,40 @@ const Popup = ({ children, text }) => {
             {/* Content */}
             <motion.div
               ref={popupRef}
-              className="fixed top-[40%] left-[40%] -translate-x-1/2 -translate-y-1/2 bg-light text-dark p-8 rounded-2xl shadow-xl z-50 max-w-sm text-center"
+              className="fixed top-[30%] left-[38%] -translate-x-1/2 -translate-y-1/2 bg-light text-dark p-8 rounded-2xl shadow-xl z-50 max-w-sm text-center"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
               transition={{ duration: 0.3 }}>
-              <p className="text-lg">{text}</p>
-              <button
-                onClick={() => setIsOpen(false)}
-                className="mt-4 px-4 py-2 bg-primary text-white rounded hover:bg-secundary transition">
-                Schließen
-              </button>
+              <h3 className="text-xl font-bold text-primary">{title}</h3>
+              <p className="text-base text-muted">{text}</p>
+
+              {image && (
+                <img
+                  src={image}
+                  alt={title}
+                  className="w-full max-h-64 object-contain rounded-lg mx-auto"
+                />
+              )}
+
+              {video && (
+                <div className="aspect-video w-full max-w-full rounded-xl overflow-hidden">
+                  <iframe
+                    src={`https://www.youtube-nocookie.com/embed/${
+                      video.split("v=")[1]
+                    }`}
+                    title={title}
+                    frameBorder="0"
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
+                </div>
+              )}
+
+              <div className="w-full text-base flex justify-center py-8">
+                <Button onClick={() => setIsOpen(false)} text="Schließen" />
+              </div>
             </motion.div>
           </>
         )}

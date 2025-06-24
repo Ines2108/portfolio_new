@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
       </Head>
       <main
         className={`${junge.variable} ${bayon.variable} font-bayon bg-light w-full min-h-screen`}>

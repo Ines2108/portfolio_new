@@ -31,24 +31,24 @@ export default function Home() {
         <div className="xl:hidden flex flex-col justify-center items-center w-full px-6 py-10">
           <AnimatedHeadline
             text="A creative soul is"
-            className="text-transparent bg-clip-text bg-gradient-to-r from-secundary to-primary text-2xl text-center"
+            className="text-transparent pt-4 sm:pt-0 bg-clip-text bg-gradient-to-r from-secundary to-primary text-2xl text-center"
             delay={0}
           />
           <AnimatedHeadline
             text="never out of colors"
-            className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-tertiary text-2xl text-center"
+            className="text-transparent pt-2 sm:pt-0 bg-clip-text bg-gradient-to-r from-primary to-tertiary text-2xl text-center"
             delay={1}
           />
           <Image
             src={profilePic}
             alt="Abstract Ines"
-            className="w-full h-auto -mt-8 mb-8 z-10"
+            className="w-full max-w-[700px] h-auto -mt-4 sm:-mt-12 mb-8 z-10"
             priority
           />
-          <p className="text-2xl font-bold text-primary text-center">
+          <p className="text-4xl md:text-6xl font-bold text-primary text-center">
             Ines Niedermaier
           </p>
-          <p className="text-lg text-primary text-center">
+          <p className="text-2xl md:text-4xl text-primary text-center">
             Frontend Developer | UX/UI-Designer | Marketer
           </p>
         </div>
@@ -98,7 +98,7 @@ export default function Home() {
                 top: `clamp(3rem, 12vw, 8rem)`,
               }}>
               <p className="text-[clamp(1.5rem,2vw,5rem)] leading-[clamp(2rem,2vw,5.5rem)] text-right text-primary">
-                Frontend Developer | UX/UI-Designer | Marketer
+                UX/UI-Designer | Frontend Developer | Marketer
               </p>
             </div>
 

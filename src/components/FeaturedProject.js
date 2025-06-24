@@ -200,7 +200,7 @@ const FeaturedProject = ({ type, title, summary, img, github }) => {
               className="w-full h-auto object-cover rounded-lg"
             />
           </div>
-          <div className="w-[80%] flex flex-col items-end text-justify">
+          <div className="w-[80%] flex flex-col items-end text-justify pr-4">
             <span className="text-lg font-semibold text-primary">{type}</span>
             <h2 className="text-xl md:text-2xl font-bold mt-2 !text-right">
               {title}
