@@ -25,7 +25,7 @@ function ScrollImage({ src, alt, index, containerRef, total }) {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6 }}
-        className="absolute top-4 sm:top-32 xl:top-8 text-center text-primary font-mono text-[18px] sm:text-[34px] font-bold z-30">
+        className="absolute top-4 sm:top-12 md:top-28 lg:top-8 xl:top-8 text-center text-primary font-mono text-[18px] sm:text-[34px] font-bold z-30">
         {String(index + 1).padStart(2, "0")}/{String(total).padStart(2, "0")}
       </motion.h2>
       <div
