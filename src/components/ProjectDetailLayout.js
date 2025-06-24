@@ -24,9 +24,7 @@ function ScrollImage({ src, alt, index, containerRef, total }) {
     container: containerRef,
   });
 
-  const y = useMemo(() => {
-    return index === 0 ? 0 : useParallax(scrollYProgress, 300);
-  }, [index, scrollYProgress]);
+  const y = index === 0 ? 0 : useParallax(scrollYProgress, 300);
 
   return (
     <section className="h-[50vh] xs:h-screen snap-start flex justify-center items-center relative">
