@@ -25,7 +25,7 @@ function ScrollImage({ src, alt, index, containerRef, total }) {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6 }}
-        className="absolute top-4 sm:top-40 xl:top-8 text-center text-primary font-mono text-[18px] sm:text-[34px] font-bold z-30">
+        className="absolute top-4 sm:top-32 xl:top-8 text-center text-primary font-mono text-[18px] sm:text-[34px] font-bold z-30">
         {String(index + 1).padStart(2, "0")}/{String(total).padStart(2, "0")}
       </motion.h2>
       <div
@@ -91,9 +91,7 @@ const ProjectDetailLayout = ({
           {/* BILDER RECHTS */}
           <div className="relative">
             <div className="flex justify-center flex-col text-center z-20">
-              <div className="text-primary text-sm">
-                Hover picture and scroll
-              </div>
+              <div className="text-primary text-sm">Hover Bild and scrolle</div>
               <div className="text-2xl text-primary animate-bounce mt-1">▼</div>
             </div>
 
