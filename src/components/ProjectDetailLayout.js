@@ -24,7 +24,8 @@ function ScrollImage({ src, alt, index, containerRef, total }) {
     container: containerRef,
   });
 
-  const y = index === 0 ? 0 : useParallax(scrollYProgress, 300);
+  const hasScroll = index !== 0; // nur ab dem 2. Bild
+  const y = hasScroll ? useParallax(scrollYProgress, 300) : undefined;
 
   return (
     <section className="h-[50vh] xs:h-screen snap-start flex justify-center items-center relative">
@@ -43,7 +44,7 @@ function ScrollImage({ src, alt, index, containerRef, total }) {
       <motion.h2
         initial={{ visibility: "hidden" }}
         animate={{ visibility: "visible" }}
-        style={{ y }}
+        style={y ? { y } : {}}
         className="absolute text-primary font-mono text-[18px] xs:text-[28px] font-bold z-30 top-[calc(12%-16px)] left-[calc(20%+180px)] xs:left-[calc(50%+180px)] leading-none">
         {String(index + 1).padStart(2, "0")}/{String(total).padStart(2, "0")}
       </motion.h2>
