@@ -16,15 +16,15 @@ const FeaturedProject = ({ type, title, summary, img, github }) => {
 
   const isInViewLarge = useInView(sectionRefLarge, {
     once: true,
-    margin: "-50% 0px",
+    margin: "-40% 0px",
   });
   const isInViewMedium = useInView(sectionRefMedium, {
     once: true,
-    margin: "-50% 0px",
+    margin: "-40% 0px",
   });
   const isInViewSmall = useInView(sectionRefSmall, {
     once: true,
-    margin: "-50% 0px",
+    margin: "-40% 0px",
   });
 
   useEffect(() => {

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
-import { LinkedInIcon } from "./Icons";
 import LiIcon from "./LiIcon";
+import { useInView } from "framer-motion";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
   const ref = useRef(null);
@@ -39,19 +39,19 @@ const Experience = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start end", "center start"],
+    offset: ["start end", "end start"],
   });
 
   return (
     <div className="my-16">
-      <h2 className="text-6xl md:text-7xl lg:text-8xl text-primary font-bold text-center mb-16">
+      <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-primary font-bold text-center mb-16">
         Meine Praxis-Power
       </h2>
       <div ref={ref} className="w-full mx-auto relative lg:w-[90%] md:w-[75%]">
         <motion.div
           style={{ scaleY: scrollYProgress }}
           className="absolute left-[20px] top-0 w-[2px] h-full bg-primary origin-top
-          md:w-[4px] md:left-9 xs:left-[30px]"
+    md:w-[4px] md:left-9 xs:left-[30px]"
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-2 md:ml-4">

@@ -71,7 +71,7 @@ const ProjectDetailLayout = ({
   });
   const scaleY = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
-  const images = [img1, img2, img3, img4, img5, img6, img7];
+  const images = [img1, img2, img3, img4, img5, img6, img7].filter(Boolean);
 
   return (
     <main className="flex w-full min-h-screen justify-stretch">

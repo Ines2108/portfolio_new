@@ -47,7 +47,6 @@ const Projects = ({ type, title, img, github }) => {
 
   useEffect(() => {
     if (isInViewLarge) {
-      console.log("LARGE IN VIEW");
       animateSvgPaths(projectSvgRefLarge);
     }
   }, [isInViewLarge]);
@@ -136,14 +135,14 @@ const Projects = ({ type, title, img, github }) => {
         </div>
 
         <div className="flex flex-col items-center gap-6 w-full max-w-[300px] mx-auto">
-          <div className="w-full max-w-[200px] z-10">
+          <div className="w-full max-w-[200px] ml-12 z-10">
             <Image
               src={img}
               alt={title}
               className="w-full h-auto object-cover rounded-lg"
             />
           </div>
-          <div className="w-[80%] flex flex-col items-end text-justify">
+          <div className="w-[65%] flex flex-col items-end ml-12">
             <span className="text-lg font-semibold text-primary">{type}</span>
             <h2 className="text-xl md:text-2xl font-bold mt-2 !text-right">
               {title}
@@ -183,14 +182,14 @@ const Projects = ({ type, title, img, github }) => {
         </div>
 
         <div className="flex flex-col items-center gap-6 w-full mx-auto">
-          <div className="w-full max-w-[150px]">
+          <div className="w-full max-w-[180px] ml-4">
             <Image
               src={img}
               alt={title}
               className="w-full h-auto object-cover rounded-lg"
             />
           </div>
-          <div className="w-[40%] flex flex-col items-end text-justify">
+          <div className="w-[40%] flex flex-col items-end ml-4">
             <span className="text-lg font-semibold text-primary">{type}</span>
             <h2 className="text-xl md:text-2xl font-bold mt-2 !text-right">
               {title}
