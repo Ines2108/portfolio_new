@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Button from "@/components/ButtonPrimary";
 import dynamic from "next/dynamic";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
 const AnimatedHeadline = dynamic(
   () => import("@/components/AnimatedHeadline"),
@@ -24,7 +24,9 @@ function ScrollImage({ src, alt, index, containerRef, total }) {
     container: containerRef,
   });
 
-  const y = useParallax(scrollYProgress, 300);
+  const y = useMemo(() => {
+    return index === 0 ? 0 : useParallax(scrollYProgress, 300);
+  }, [index, scrollYProgress]);
 
   return (
     <section className="h-[50vh] xs:h-screen snap-start flex justify-center items-center relative">
