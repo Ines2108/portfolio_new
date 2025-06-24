@@ -14,7 +14,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}>
-        <h3 className="capitalize font-bold text-lg sm:text-xl md:text-2xl">
+        <h3 className="capitalize font-bold text-base sm:text-xl md:text-2xl">
           {position}&nbsp;
           <a
             href={companyLink}
@@ -23,11 +23,11 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             @{company}
           </a>
         </h3>
-        <span className="capitalize font-medium text-dark/75 text-sm md:text-base">
+        <span className="capitalize font-medium text-dark/75 text-xs md:text-base">
           {time} | {address}
         </span>
         <p
-          className="font-medium w-full text-sm md:text-base"
+          className="font-medium w-full text-xs md:text-base"
           dangerouslySetInnerHTML={{ __html: work }}
         />
       </motion.div>
