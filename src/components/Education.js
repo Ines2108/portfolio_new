@@ -14,7 +14,7 @@ const Details = ({ education, school, schoolLink, time, address, note }) => {
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}>
-        <h3 className="capitalize font-bold text-base sm:text-xl md:text-2xl">
+        <h3 className="normal-case font-bold text-base sm:text-xl md:text-2xl">
           {education} &nbsp;
           <a
             href={schoolLink}
@@ -43,14 +43,14 @@ const Education = () => {
   });
 
   return (
-    <div className="mt-32 mb-80">
+    <div className="mt-32 mb-20 md:mb-48">
       <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-primary font-bold text-center mb-16">
         Mein Wissensweg
       </h2>
       <div ref={ref} className="w-full mx-auto relative lg:w-[90%] md:w-[75%]">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-[20px] top-0 w-[2px] h-full bg-primary origin-top
+          className="absolute left-[20px] top-0 w-[2px] h-[110%] bg-primary origin-top
           md:w-[4px] md:left-9 xs:left-[30px]"
         />
 
@@ -62,6 +62,13 @@ const Education = () => {
             time="Okt. 2022 - Juli 2025"
             address="Softwarepark 11, 4232 Hagenberg"
             note="Schwerpunkte: Online Marketing, E-Learning, Web Development, Human-Computer-Interaction"
+          />
+          <Details
+            education="Zertifizierung Google Ads-Suchmaschinenwerbung"
+            time="Juli 2024 - Juli 2025"
+            school="FH Hagenberg"
+            companyLink="https://fh-ooe.at/campus-hagenberg"
+            address="Softwarepark 11, 4232 Hagenberg"
           />
           <Details
             education="Bilanzbuchhalter- und Buchhalterprüfung"
