@@ -1,4 +1,3 @@
-// /pages/projects/[slug].js
 import Head from "next/head";
 import { useRouter } from "next/router";
 import ProjectDetailLayout from "@/components/ProjectDetailLayout";

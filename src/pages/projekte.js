@@ -33,7 +33,7 @@ const ProjectsPage = () => {
                   <div
                     key={project.slug}
                     className="col-span-1 xs:col-span-2 xl:col-span-12 mb-4 md:mb-0 flex justify-center">
-                    <Link href={`/projects/${project.slug}`}>
+                    <Link href={`/projekte/${project.slug}`}>
                       <FeaturedProject
                         title={project.title}
                         img={project.img1}
@@ -48,7 +48,7 @@ const ProjectsPage = () => {
                   <div
                     key={project.slug}
                     className="col-span-1 xl:col-span-6 flex justify-center mt-0 xl:-mt-20">
-                    <Link href={`/projects/${project.slug}`}>
+                    <Link href={`/projekte/${project.slug}`}>
                       <Projects
                         title={project.title}
                         img={project.img1}

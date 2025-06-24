@@ -88,7 +88,7 @@ export const projectsData = [
     ],
   },
   {
-    slug: "ux/ui-gesetze",
+    slug: "ux-gesetze",
     title: "Willhaben neu gedacht: Analyse & UX-Makeover",
     featured: false,
     type: "UX/UI",

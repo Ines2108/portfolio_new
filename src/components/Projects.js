@@ -143,7 +143,9 @@ const Projects = ({ type, title, img, github }) => {
             />
           </div>
           <div className="w-[65%] flex flex-col items-end ml-12">
-            <span className="text-lg font-semibold text-primary">{type}</span>
+            <span className="text-lg font-semibold text-primary text-right">
+              {type}
+            </span>
             <h2 className="text-xl md:text-2xl font-bold mt-2 !text-right">
               {title}
             </h2>
@@ -190,7 +192,9 @@ const Projects = ({ type, title, img, github }) => {
             />
           </div>
           <div className="w-[40%] flex flex-col items-end ml-4">
-            <span className="text-lg font-semibold text-primary">{type}</span>
+            <span className="text-lg font-semibold text-primary text-right">
+              {type}
+            </span>
             <h2 className="text-xl md:text-2xl font-bold mt-2 !text-right">
               {title}
             </h2>
