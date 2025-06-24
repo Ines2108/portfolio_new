@@ -19,35 +19,22 @@ function useParallax(value, distance) {
 function ScrollImage({ src, alt, index, containerRef, total }) {
   const ref = useRef(null);
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    container: containerRef,
-  });
-
-  const hasScroll = index !== 0; // nur ab dem 2. Bild
-  const y = hasScroll ? useParallax(scrollYProgress, 300) : undefined;
-
   return (
     <section className="h-[50vh] xs:h-screen snap-start flex justify-center items-center relative">
-      {/* Hover Hinweis & Pfeil */}
-      <div className="absolute top-0 xs:top-6 text-center z-20">
-        <div className="text-primary text-sm">Hover picture and scroll</div>
-        <div className="text-2xl text-primary animate-bounce mt-1">▼</div>
-      </div>
-
+      <motion.h2
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6 }}
+        className="absolute top-4 sm:top-40 xl:top-8 text-center text-primary font-mono text-[18px] sm:text-[34px] font-bold z-30">
+        {String(index + 1).padStart(2, "0")}/{String(total).padStart(2, "0")}
+      </motion.h2>
       <div
         ref={ref}
         className="w-[80vw] h-[36vh] xs:h-[70vh] overflow-hidden relative">
         <Image src={src} alt={alt} fill className="object-contain" />
-      </div>
 
-      <motion.h2
-        initial={{ visibility: "hidden" }}
-        animate={{ visibility: "visible" }}
-        style={y ? { y } : {}}
-        className="absolute text-primary font-mono text-[18px] xs:text-[28px] font-bold z-30 top-[calc(12%-16px)] left-[calc(20%+180px)] xs:left-[calc(50%+180px)] leading-none">
-        {String(index + 1).padStart(2, "0")}/{String(total).padStart(2, "0")}
-      </motion.h2>
+        {/* Bildnummer oben rechts */}
+      </div>
     </section>
   );
 }
@@ -102,25 +89,34 @@ const ProjectDetailLayout = ({
           </div>
 
           {/* BILDER RECHTS */}
-          <div
-            ref={scrollContainerRef}
-            className="sticky top-0 h-[50vh] xs:h-screen overflow-y-scroll no-scrollbar snap-y snap-mandatory">
-            {images.map((img, index) => (
-              <ScrollImage
-                key={index}
-                src={img}
-                alt={`Image ${index + 1}`}
-                index={index}
-                containerRef={scrollContainerRef}
-                total={images.length}
-              />
-            ))}
+          <div className="relative">
+            <div className="flex justify-center flex-col text-center z-20">
+              <div className="text-primary text-sm">
+                Hover picture and scroll
+              </div>
+              <div className="text-2xl text-primary animate-bounce mt-1">▼</div>
+            </div>
 
-            {/* Progress Bar */}
-            <motion.div
-              className="fixed top-0 bottom-0 w-1 bg-primary right-4 origin-top z-50"
-              style={{ scaleY }}
-            />
+            <div
+              ref={scrollContainerRef}
+              className="sticky top-0 h-[50vh] xs:h-screen overflow-y-scroll no-scrollbar snap-y snap-mandatory">
+              {images.map((img, index) => (
+                <ScrollImage
+                  key={index}
+                  src={img}
+                  alt={`Image ${index + 1}`}
+                  index={index}
+                  containerRef={scrollContainerRef}
+                  total={images.length}
+                />
+              ))}
+
+              {/* Progress Bar */}
+              <motion.div
+                className="fixed top-0 bottom-0 w-1 bg-primary right-4 origin-top z-50"
+                style={{ scaleY }}
+              />
+            </div>
           </div>
         </div>
         {youtube && (
