@@ -93,7 +93,7 @@ const ProjectDetailLayout = ({
                 <h2
                   className="text-2xl font-bold mb-3 text-primary"
                   dangerouslySetInnerHTML={{ __html: section.heading }}></h2>
-                <p className="text-base leading-relaxed font-sans text-justify text-muted">
+                <p className="text-base leading-relaxed font-montserrat text-justify text-muted">
                   {section.text}
                 </p>
               </motion.div>

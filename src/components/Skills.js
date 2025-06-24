@@ -47,7 +47,7 @@ const Skills = () => {
       ref={sectionRef}
       className="mx-auto w-full max-w-6xl px-4 md:px-8 lg:px-12">
       <div className="flex flex-col items-center relative">
-        <h2 className="text-5xl md:text-6xl lg:text-8xl text-primary font-bold text-center mb-8">
+        <h2 className="text-6xl md:text-7xl lg:text-8xl text-primary font-bold text-center mb-8">
           Mein digitaler Werkzeugkasten
         </h2>
 

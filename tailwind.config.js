@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        junge: ["var(--font-junge)", ...fontFamily.sans],
+        montserrat: ["var(--font-montserrat)", ...fontFamily.sans],
         bayon: ["var(--font-bayon)", ...fontFamily.sans],
       },
       colors: {

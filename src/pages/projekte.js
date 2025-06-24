@@ -47,7 +47,7 @@ const ProjectsPage = () => {
                 return (
                   <div
                     key={project.slug}
-                    className="col-span-1 xl:col-span-6 flex justify-center mt-0 xl:-mt-12">
+                    className="col-span-1 xl:col-span-6 flex justify-center mt-0 xl:-mt-20">
                     <Link href={`/projects/${project.slug}`}>
                       <Projects
                         title={project.title}

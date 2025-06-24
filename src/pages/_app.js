@@ -1,14 +1,14 @@
 import "@/styles/globals.css";
-import { Junge } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import { Bayon } from "next/font/google";
 import Head from "next/head";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 
-const junge = Junge({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-junge",
-  weight: "400",
+  variable: "--font-montserrat",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 const bayon = Bayon({
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" type="image/svg+xml" href="/logo.svg" />
       </Head>
       <main
-        className={`${junge.variable} ${bayon.variable} font-bayon bg-light w-full min-h-screen`}>
+        className={`${montserrat.variable} ${bayon.variable} font-bayon bg-light w-full min-h-screen`}>
         <NavBar />
         <Component {...pageProps} />
         <Footer />

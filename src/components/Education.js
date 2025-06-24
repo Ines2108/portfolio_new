@@ -8,7 +8,7 @@ const Details = ({ education, school, schoolLink, time, address, note }) => {
   return (
     <li
       ref={ref}
-      className="my-8 font-sans first:mt-0 last:mb-0 w-[80%] md:w-[60%] mx-auto flex flex-col justify-between">
+      className="my-8 font-montserrat first:mt-0 last:mb-0 w-[80%] md:w-[60%] mx-auto flex flex-col justify-between">
       <LiIcon reference={ref} />
       <motion.div
         initial={{ y: 50 }}
@@ -44,7 +44,7 @@ const Education = () => {
 
   return (
     <div className="mt-32 mb-80">
-      <h2 className="text-5xl md:text-6xl lg:text-8xl text-primary font-bold text-center mb-16">
+      <h2 className="text-6xl md:text-7xl lg:text-8xl text-primary font-bold text-center mb-16">
         Mein Wissensweg
       </h2>
       <div ref={ref} className="w-full mx-auto relative lg:w-[90%] md:w-[75%]">

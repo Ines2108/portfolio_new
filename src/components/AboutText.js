@@ -6,7 +6,7 @@ const AboutText = () => {
   return (
     <>
       <div className="mt-4 lg:-mt-32 flex justify-end">
-        <h2 className="w-5/6 text-2xl font-sans font-bold sm:text-3xl md:text-4xl lg:text-5xl text-primary text-right normal-case">
+        <h2 className="w-5/6 text-2xl font-montserrat font-bold sm:text-3xl md:text-4xl xl:text-5xl text-primary text-right normal-case">
           Hi, ich bin Ines, aber meine Kolleg*innen nennen mich auch{" "}
           <Popup
             title={easterEggData.itnes.title}
@@ -18,7 +18,7 @@ const AboutText = () => {
           </Popup>
         </h2>
       </div>
-      <div className="pt-4 font-sans text-base md:text-lg text-justify">
+      <div className="pt-4 font-montserrat text-base xl:text-lg text-justify">
         <p>
           Ich bin 30 Jahre alt, studiere Kommunikation, Wissen und Medien in
           Hagenberg und liebe alles, was mit Gestaltung, Technik und kreativen
@@ -37,8 +37,8 @@ const AboutText = () => {
           Ich bin ein kreativer Allrounder, der technische Raffinesse gerne mit
           Ästhetik verbindet. Ob ich gerade eine Benutzeroberfläche optimiere,
           eine Website programmiere, eine Videokampagne schneide oder ein
-          Konzept aus dem Nichts zaubere – ich liebe es, Dinge zu erschaffen,
-          die nicht nur hübsch aussehen, sondern auch Sinn machen.
+          Konzept zaubere – ich liebe es, Dinge zu erschaffen, die nicht nur
+          hübsch aussehen, sondern auch Sinn machen.
         </p>
         <br />
         <p>
