@@ -50,14 +50,14 @@ const Popup = ({ children, title, index, text, image, video }) => {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="fixed inset-0 z-50 flex items-center justify-center bg-dark/70 backdrop-blur-sm"
+            className="fixed inset-0 z-50 flex items-start md:items-center justify-center bg-dark/70 backdrop-blur-sm overflow-y-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}>
             <motion.div
               ref={popupRef}
-              className="bg-light text-dark max-h-[80vh] overflow-y-auto p-6 sm:p-8 rounded-2xl shadow-xl max-w-xl w-[90%] text-center scrollbar-thin 
-             flex flex-col items-center justify-start"
+              className="bg-light text-dark my-8 max-h-fit p-6 sm:p-8 rounded-2xl shadow-xl max-w-xl w-[90%] text-center scrollbar-thin 
+                   flex flex-col items-center justify-start"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
@@ -66,7 +66,7 @@ const Popup = ({ children, title, index, text, image, video }) => {
                 {title}
               </h3>
               {index && (
-                <span className="text-sm md:text-base text-primary block">
+                <span className="text-sm md:text-base font-normal text-primary block">
                   {index}
                 </span>
               )}
@@ -74,7 +74,7 @@ const Popup = ({ children, title, index, text, image, video }) => {
                 className="text-base font-normal normal-case text-muted text-justify font-montserrat my-4"
                 dangerouslySetInnerHTML={{ __html: text }}
               />
-              <div className="flex justify-center items-center flex-wrap gap-4 mb-4 max-h-[300px] overflow-hidden">
+              <div className="flex justify-center items-center flex-wrap gap-4 mb-4 overflow-hidden">
                 {Array.isArray(image) &&
                   image.map((img, i) => {
                     if (!img) return null; // schützt vor undefined

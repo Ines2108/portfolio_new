@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="relative z-10 p-5 flex justify-center space-x-2">
         <a
           href="https://github.com/Ines2108/portfolio"
-          className="text-dark opacity-50 font-montserrat hover:opacity-100 hover:-translate-y-2 transition duration-200 p-2"
+          className="text-xs md:text-base text-dark opacity-50 font-montserrat hover:opacity-100 hover:-translate-y-2 transition duration-200 p-2"
           target="_blank"
           rel="noopener noreferrer">
           Designed & Built by Ines Niedermaier

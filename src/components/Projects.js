@@ -164,7 +164,7 @@ const Projects = ({ type, title, img, github }) => {
       {/* Small (< md) */}
       <article
         ref={projectSectionRefSmall}
-        className="relative md:hidden py-6 flex justify-center w-[400px] min-h-[315px]">
+        className="relative md:hidden py-6 flex justify-center w-[300px] min-h-[315px]">
         <div
           ref={projectSvgRefSmall}
           className="absolute inset-0 opacity-0 invisible w-full mx-auto flex justify-center items-center">
@@ -191,7 +191,7 @@ const Projects = ({ type, title, img, github }) => {
               className="w-full h-auto object-cover rounded-lg"
             />
           </div>
-          <div className="w-[40%] flex flex-col items-end ml-4">
+          <div className="w-[50%] flex flex-col items-end ml-4">
             <span className="text-lg font-semibold text-primary text-right">
               {type}
             </span>
