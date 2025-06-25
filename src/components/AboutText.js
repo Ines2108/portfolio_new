@@ -11,6 +11,7 @@ const AboutText = () => {
           <Popup
             title={easterEggData.itnes.title}
             text={easterEggData.itnes.text}
+            index={easterEggData.itnes.index}
             image={easterEggData.itnes.image}>
             <span className="cursor-pointer hover:text-secundary transition">
               ITnes
@@ -41,14 +42,22 @@ const AboutText = () => {
           hübsch aussehen, sondern auch Sinn machen.
         </p>
         <br />
-        <p>
-          Abseits vom Bildschirm findest du mich beim Tennisspielen, beim STRONG
-          Nation-Kurs als motivierende Antreiberin, beim Wandern auf dem
-          nächsten Gipfel oder beim Relaxen mit meinen zwei flauschigen Katzen.
-          Ich liebe es, unterwegs zu sein, neue Menschen und Kulturen
-          kennenzulernen und die Welt aus möglichst vielen Blickwinkeln zu
-          betrachten.
-        </p>
+        <div className="space-y-4 font-montserrat text-base xl:text-lg text-justify">
+          Abseits vom Bildschirm findest du mich beim Tennisspielen, beim{" "}
+          <Popup
+            title={easterEggData.strong.title}
+            text={easterEggData.strong.text}
+            index={easterEggData.strong.index}
+            video={easterEggData.strong.video}>
+            <span className="cursor-pointer hover:text-secundary transition">
+              STRONG Nation® Kurs
+            </span>
+          </Popup>{" "}
+          als motivierende Antreiberin, beim Wandern auf dem nächsten Gipfel
+          oder beim Relaxen mit meinen zwei flauschigen Katzen. Ich liebe es,
+          unterwegs zu sein, neue Menschen und Kulturen kennenzulernen und die
+          Welt aus möglichst vielen Blickwinkeln zu betrachten.
+        </div>
       </div>
     </>
   );

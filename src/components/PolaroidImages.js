@@ -12,8 +12,8 @@ const images = [
     alt: "Ines mit ihren zwei Katzen",
   },
   {
-    src: "/images/aboutMe/Ines_mit_Wein.JPG",
-    alt: "Ines genießt ein Glas Wein",
+    src: "/images/aboutMe/Ines_laessig.jpg",
+    alt: "Ines ganz laessig",
   },
   {
     src: "/images/aboutMe/Ines_Tennis.jpg",

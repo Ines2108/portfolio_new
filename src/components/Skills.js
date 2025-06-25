@@ -58,7 +58,7 @@ const Skills = () => {
             className="relative opacity-0 invisible w-full h-0 pb-[140%]">
             <svg
               className="absolute inset-0 w-full h-full tech-svg"
-              viewBox="0 0 824 1380"
+              viewBox="0 0 880 1380"
               preserveAspectRatio="xMidYMid meet"
               fill="none"
               xmlns="http://www.w3.org/2000/svg">
@@ -70,14 +70,14 @@ const Skills = () => {
               />
             </svg>
 
-            <div className="absolute top-[-13px] left-[15px] w-full h-full grid grid-cols-2 gap-3 px-6 py-12 place-items-center">
+            <div className="absolute top-[-15px] left-0 w-full h-full grid grid-cols-2 gap-3 px-6 py-12 place-items-center">
               {techSkills.map((skill, index) => (
                 <motion.div
                   key={index}
                   className="flex justify-center px-4 py-2 border xs:border-2 border-primary rounded bg-white text-primary text-xs xs:text-sm font-medium transition-colors duration-300 hover:bg-primary hover:text-white"
                   whileHover={{ scale: 1.05 }}
                   transition={{ type: "spring", stiffness: 200 }}>
-                  <div className="grayscale hover:grayscale-0 transition duration-500">
+                  <div className="w-[60px] xs:w-[70px] text-center grayscale hover:grayscale-0 transition duration-500">
                     {skill}
                   </div>
                 </motion.div>
@@ -111,7 +111,7 @@ const Skills = () => {
                   className="flex justify-center px-4 py-2 lg:px-8 lg:py-4 border-2 lg:border-4 border-primary rounded-md bg-white text-primary text-sm lg:text-lg font-semibold transition-colors duration-300 hover:bg-primary hover:text-white"
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 200 }}>
-                  <div className="grayscale hover:grayscale-0 transition duration-500">
+                  <div className="sm:w-[90px] md:w-[80px] lg:w-[100px] text-center grayscale hover:grayscale-0 transition duration-500">
                     {skill}
                   </div>
                 </motion.div>

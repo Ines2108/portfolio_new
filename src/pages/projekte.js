@@ -5,6 +5,8 @@ import FeaturedProject from "@/components/FeaturedProject";
 import Projects from "@/components/Projects";
 import { projectsData } from "@/data/projectsData";
 import Link from "next/link";
+import { easterEggData } from "@/data/easterEggData";
+import Popup from "@/components/Popup";
 
 const AnimatedHeadline = dynamic(
   () => import("@/components/AnimatedHeadline"),
@@ -21,8 +23,21 @@ const ProjectsPage = () => {
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedHeadline
-            text="Ideen mit Output"
-            className=" mb-10 text-primary"
+            className="mb-10 text-primary"
+            text={
+              <>
+                Ideen mit{" "}
+                <Popup
+                  title={easterEggData.happy.title}
+                  text={easterEggData.happy.text}
+                  index={easterEggData.happy.index}
+                  image={easterEggData.happy.image}>
+                  <span className="cursor-pointer hover:text-secundary transition">
+                    Output
+                  </span>
+                </Popup>
+              </>
+            }
           />
 
           <section className="project-section mt-12 mb-32 w-full max-w-[1800px] mx-auto grid grid-cols-1 xs:grid-cols-2 xl:grid-cols-12 gap-24 xl:gap-">

@@ -8,8 +8,7 @@ const EasterEgg = () => {
     <div className="relative z-40">
       {/* Trigger Icon */}
       <motion.svg
-        width="67"
-        height="109"
+        className="w-8 h-16 sm:w-14 sm:h-24 md:w-12 md:h-20 lg:w-[67px] lg:h-[109px]"
         viewBox="0 0 127 169"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -4,6 +4,7 @@ import Image from "next/image";
 import profilePic from "../../public/images/profile/abstract_ines2_small.png";
 import dynamic from "next/dynamic";
 import Popup from "@/components/Popup";
+import { easterEggData } from "@/data/easterEggData";
 
 const AnimatedHeadline = dynamic(
   () => import("@/components/AnimatedHeadline"),
@@ -97,9 +98,18 @@ export default function Home() {
                 right: `clamp(3rem, 10vw, 15rem)`,
                 top: `clamp(3rem, 12vw, 8rem)`,
               }}>
-              <p className="text-[clamp(1.5rem,2vw,5rem)] leading-[clamp(2rem,2vw,5.5rem)] text-right text-primary">
-                UX/UI-Designer | Frontend Developer | Marketer
-              </p>
+              <div className="text-[clamp(1.5rem,2vw,5rem)] leading-[clamp(2rem,2vw,5.5rem)] text-right text-primary">
+                UX/UI-Designer |{" "}
+                <Popup
+                  title={easterEggData.frontend.title}
+                  text={easterEggData.frontend.text}
+                  index={easterEggData.frontend.index}>
+                  <span className="cursor-pointer hover:text-secundary transition">
+                    Frontend Developer
+                  </span>
+                </Popup>{" "}
+                | Marketer
+              </div>
             </div>
 
             {/* Unten rechts */}
@@ -117,13 +127,13 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-
-        {/* Easter Egg bleibt außerhalb, sichtbar auf allen Geräten
         <div className="absolute right-8 -bottom-20">
-          <Popup text="🎉 Du hast das Easter Egg gefunden!">
+          <Popup
+            title={easterEggData.intro.title}
+            text={easterEggData.intro.text}>
             <EasterEgg />
           </Popup>
-        </div> */}
+        </div>
       </main>
     </>
   );

@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+#__next {
+  height: 100%;
+  position: relative;
+}
+
 /* globals.css */
 .no-scrollbar::-webkit-scrollbar {
   display: none;

@@ -92,7 +92,7 @@ const Projects = ({ type, title, img, github }) => {
             <Image
               src={img}
               alt={title}
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto ml-[2.5rem] object-cover rounded-lg"
             />
           </div>
           <div className="max-w-[280px] flex flex-col items-end text-justify">

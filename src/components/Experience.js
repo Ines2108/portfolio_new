@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
-import { useInView } from "framer-motion";
+import Popup from "./Popup";
+import { easterEggData } from "@/data/easterEggData";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
   const ref = useRef(null);
@@ -23,13 +24,16 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             @{company}
           </a>
         </h3>
-        <span className="capitalize font-medium text-dark/75 text-xs md:text-base">
+        <span className="capitalize text-dark/75 text-xs md:text-base">
           {time} | {address}
         </span>
-        <p
-          className="font-medium w-full text-xs md:text-base"
-          dangerouslySetInnerHTML={{ __html: work }}
-        />
+        <div className="text-sm md:text-base text-muted font-medium font-montserrat leading-relaxed">
+          {work.split("<br>").map((line, index) => (
+            <p key={index} className="before:content-['•'] before:mr-2">
+              {line.trim()}
+            </p>
+          ))}
+        </div>
       </motion.div>
     </li>
   );
@@ -85,14 +89,26 @@ const Experience = () => {
 Analyse und Optimierung interner Finanzprozesse zur Effizienzsteigerung"
           />
           <Details
-            position="Bilanzbuchhalterin"
+            position={
+              <>
+                <Popup
+                  title={easterEggData.travel.title}
+                  text={easterEggData.travel.text}
+                  index={easterEggData.travel.index}
+                  image={easterEggData.travel.image}>
+                  <span className="cursor-pointer hover:text-secundary transition">
+                    Bilanzbuchhalterin
+                  </span>
+                </Popup>
+              </>
+            }
             company="Intersport Austria GmbH"
             companyLink="https://www.intersport.at"
             time="Jan. 2019 - Dez. 2020"
             address="Flugplatzstraße 10, 4600 Wels"
             work="Durchführung der Anlagenbuchhaltung und Umsatzsteuervoranmeldung <br>
-            Erstellung von Rohbilanzen von 19 Franchise-Unternehmen <br>
-            Schnittstelle zu Steuerberater*innen und Finanzbehörden"
+        Erstellung von Rohbilanzen von 19 Franchise-Unternehmen <br>
+        Schnittstelle zu Steuerberater*innen und Finanzbehörden"
           />
           <Details
             position="Buchhalterin / Bilanzbuchhalterin"

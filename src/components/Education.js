@@ -23,11 +23,11 @@ const Details = ({ education, school, schoolLink, time, address, note }) => {
             @{school}
           </a>
         </h3>
-        <span className="capitalize font-medium text-dark/75 text-xs md:text-base">
+        <span className="capitalize text-dark/75 text-xs md:text-base">
           {time} | {address}
         </span>
         <p
-          className="font-medium w-full text-xs md:text-base"
+          className="w-full font-medium text-xs md:text-base"
           dangerouslySetInnerHTML={{ __html: note }}
         />
       </motion.div>
