@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
 const LiIcon = ({ reference }) => {
-  const isInView = useInView(reference, { once: true, margin: "-20% 0px" });
+  const isInView = useInView(reference, { once: true, margin: "-40% 0px" });
   const controls = useAnimation();
 
   useEffect(() => {
