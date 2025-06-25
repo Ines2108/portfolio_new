@@ -49,9 +49,18 @@ export default function Home() {
           <p className="text-4xl md:text-6xl font-bold text-primary text-center">
             Ines Niedermaier
           </p>
-          <p className="text-2xl md:text-4xl text-primary text-center">
-            Frontend Developer | UX/UI-Designer | Marketer
-          </p>
+          <div className="text-2xl md:text-4xl text-primary text-center">
+            UX/UI-Designer |{" "}
+            <Popup
+              title={easterEggData.frontend.title}
+              text={easterEggData.frontend.text}
+              index={easterEggData.frontend.index}>
+              <span className="cursor-pointer hover:text-secundary transition">
+                Frontend Developer
+              </span>
+            </Popup>{" "}
+            | Marketer
+          </div>
         </div>
 
         {/* Desktop Layout - nur sichtbar ab xl */}
