@@ -2,21 +2,10 @@ import React, { useEffect, useState } from "react";
 import { motion, useScroll } from "framer-motion";
 
 const LiIcon = ({ reference }) => {
-  const [enabled, setEnabled] = useState(false);
-
-  useEffect(() => {
-    // Nur aktivieren, wenn im Browser gerendert
-    if (typeof window !== "undefined" && reference?.current) {
-      setEnabled(true);
-    }
-  }, [reference]);
-
   const { scrollYProgress } = useScroll({
     target: reference,
     offset: ["center end", "center center"],
   });
-
-  if (!enabled) return null;
 
   return (
     <figure className="absolute left-0 stroke-primary">

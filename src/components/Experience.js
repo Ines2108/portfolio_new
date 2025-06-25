@@ -5,12 +5,12 @@ import Popup from "./Popup";
 import { easterEggData } from "@/data/easterEggData";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
-  const ref = useRef(null);
+  const liRef = useRef(null);
   return (
     <li
-      ref={ref}
+      ref={liRef}
       className="my-8 font-montserrat first:mt-0 last:mb-0 w-[80%] md:w-[60%] mx-auto flex flex-col items-start justify-between">
-      <LiIcon reference={ref} />
+      <LiIcon reference={liRef} />
       <motion.div
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
