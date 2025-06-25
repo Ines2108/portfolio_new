@@ -27,11 +27,30 @@ export const projectsData = [
     title: "Social Awareness Video – #savetheorbit",
     featured: true,
     type: "Marketing und Videoproduktion",
-    img1: kesslerTitlepic,
-    img2: kesslerCustomerJourney,
-    img3: kesslerQRCode,
-    img4: kesslerWebsite,
-    img5: kesslerSocialMeidaChallenge,
+    slug: "social-awareness-video",
+    title: "Social Awareness Video – #savetheorbit",
+    featured: true,
+    type: "Marketing und Videoproduktion",
+    img1: {
+      ...kesslerTitlepic,
+      alt: "Kessler Titlepicture",
+    },
+    img2: {
+      ...kesslerCustomerJourney,
+      alt: "Kessler Customer Journey",
+    },
+    img3: {
+      ...kesslerQRCode,
+      alt: "Kessler QR Code",
+    },
+    img4: {
+      ...kesslerWebsite,
+      alt: "Kessler Website",
+    },
+    img5: {
+      ...kesslerSocialMeidaChallenge,
+      alt: "Kessler Social Media Challenge",
+    },
     youtube: "https://www.youtube.com/watch?v=PK5-PQICAVA",
     sections: [
       {
@@ -57,11 +76,26 @@ export const projectsData = [
     title: "Relaunch Bioinformatics Website",
     featured: false,
     type: "Web Development",
-    img1: bioinformaticsTitlepic,
-    img2: bioinformaticsLogo,
-    img3: bioinformaticsStartpage,
-    img4: bioinformaticsDetailpage,
-    img5: bioinformaticsTeampage,
+    img1: {
+      ...bioinformaticsTitlepic,
+      alt: "Bioinformatics Titlepicture",
+    },
+    img2: {
+      ...bioinformaticsLogo,
+      alt: "Bioinformatics Logo Redesign",
+    },
+    img3: {
+      ...bioinformaticsStartpage,
+      alt: "Bioinformatics Startpage",
+    },
+    img4: {
+      ...bioinformaticsDetailpage,
+      alt: "Bioinformatics Detailpage",
+    },
+    img5: {
+      ...bioinformaticsTeampage,
+      alt: "Bioinformatics Teampage",
+    },
     link: {
       label: "zur Website",
       href: "https://bioinformatics.fh-hagenberg.at/home",
@@ -92,11 +126,26 @@ export const projectsData = [
     title: "Willhaben neu gedacht: Analyse & UX-Makeover",
     featured: false,
     type: "UX/UI",
-    img1: uxTitlepic,
-    img2: uxLaws,
-    img3: uxStartpage,
-    img4: uxMarktplatz,
-    img5: uxProfil,
+    img1: {
+      ...uxTitlepic,
+      alt: "UX Titlepic",
+    },
+    img2: {
+      ...uxLaws,
+      alt: "UX Laws",
+    },
+    img3: {
+      ...uxStartpage,
+      alt: "UX Startpage",
+    },
+    img4: {
+      ...uxMarktplatz,
+      alt: "UX Marktplatz",
+    },
+    img5: {
+      ...uxProfil,
+      alt: "UX Profil",
+    },
     link: {
       label: "zur Figma-Seite",
       href: "https://www.figma.com/design/rRw0GKA8o5skIAA9rz5oaA/Website-Redesign?node-id=73-3253&t=7vZUwCdmMDxsFXGC-1",
@@ -126,13 +175,34 @@ export const projectsData = [
     title: "Reco – Nachhaltig helfen, lokal verbinden",
     featured: true,
     type: "Human Computer Interaction",
-    img1: recoTitlepic,
-    img2: recoEinstieg,
-    img3: recoAnzeige,
-    img4: recoKontaktaufnahme,
-    img5: recoBewertung,
-    img6: recoGutscheine,
-    img7: recoForum,
+    img1: {
+      ...recoTitlepic,
+      alt: "Reco Titlepic",
+    },
+    img2: {
+      ...recoEinstieg,
+      alt: "Reco Einstieg",
+    },
+    img3: {
+      ...recoAnzeige,
+      alt: "Reco Anzeige",
+    },
+    img4: {
+      ...recoKontaktaufnahme,
+      alt: "Reco Kontaktaufnahme",
+    },
+    img5: {
+      ...recoBewertung,
+      alt: "Reco Bewertung",
+    },
+    img6: {
+      ...recoGutscheine,
+      alt: "Reco Gutscheine",
+    },
+    img7: {
+      ...recoForum,
+      alt: "Reco Forum",
+    },
     youtube: "https://www.youtube.com/watch?v=_5flTeJG_m0",
     sections: [
       {

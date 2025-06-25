@@ -12,7 +12,7 @@ const AnimatedHeadline = dynamic(
   }
 );
 
-function ScrollImage({ src, alt, index, total }) {
+function ScrollImage({ img, index, total }) {
   const ref = useRef(null);
 
   return (
@@ -24,12 +24,11 @@ function ScrollImage({ src, alt, index, total }) {
         className="absolute top-4 sm:top-12 lg:top-8 xl:top-8 text-center text-primary font-mono text-[18px] sm:text-[34px] font-bold z-30">
         {String(index + 1).padStart(2, "0")}/{String(total).padStart(2, "0")}
       </motion.h2>
+
       <div
         ref={ref}
         className="w-[80vw] h-[36vh] xs:h-[70vh] overflow-hidden relative">
-        <Image src={src} alt={alt} fill className="object-contain" />
-
-        {/* Bildnummer oben rechts */}
+        <Image src={img.src} alt={img.alt} fill className="object-contain" />
       </div>
     </section>
   );
@@ -97,10 +96,8 @@ const ProjectDetailLayout = ({
               {images.map((img, index) => (
                 <ScrollImage
                   key={index}
-                  src={img}
-                  alt={`Image ${index + 1}`}
+                  img={img}
                   index={index}
-                  containerRef={scrollContainerRef}
                   total={images.length}
                 />
               ))}

@@ -28,7 +28,12 @@ Damals beim Quereinstieg in der Grand Garage war ich die „Neue“ im Tech-Team
 Als ich das erste Mal am Code tüftelte, meinte eine Kollegin lachend:
 „Wow, du bist ja jetzt nicht mehr Ines, sondern IT-nes!“ <br>
 Der Name ist geblieben, auch durchs Studium hindurch, wo ich oft die erste Anlaufstelle bei IT-Fragen war.`,
-    image: [Itnes.src],
+    image: [
+      {
+        src: Itnes.src,
+        alt: "Ines als ITnes in ihrem ersten IT-Job",
+      },
+    ],
   },
   strong: {
     title: "STRONG Nation® – Ich schwitz das aus!",
@@ -49,7 +54,16 @@ Fallschirmspringen in Australien? Check. <br>
 Tauchen mit Walhaien auf den Philippinen? Check. <br>
 Ich liebe es, Neues auszuprobieren. Hauptsache, es kitzelt ein bisschen im Bauch. <br>
 Und keine Sorge: Auch beruflich lande ich immer wieder sicher. Meistens sogar auf beiden Beinen 😉`,
-    image: [skydive.src, walhai.src],
+    image: [
+      {
+        src: skydive.src,
+        alt: "Ines beim Fallschirmspringen in Australien",
+      },
+      {
+        src: walhai.src,
+        alt: "Ines beim Tauchen mit einem Walhai",
+      },
+    ],
   },
   happy: {
     title: "Mein Happy Place",
@@ -57,7 +71,10 @@ Und keine Sorge: Auch beruflich lande ich immer wieder sicher. Meistens sogar au
     text: `Sonne, frische Luft, gute Gesellschaft und vielleicht ein kaltes Bier oder ein Glaserl Wein:
 Mehr brauch ich nicht, um glücklich zu sein. <br>
 Ob mit Familie, Freund*innen oder Kolleg*innen – am liebsten sitze ich draußen, witzle herum und genieß einfach den Moment. <br>
-(Apropos: Wenn du bis hierher alle EasterEggs gefunden hast – Prost! Das war das letzte 🎉)`,
-    image: prost.src,
+(Apropos: Wenn du bis hierher alle Easter Eggs gefunden hast – Prost! Das war das letzte 🎉)`,
+    image: {
+      src: prost.src,
+      alt: "Ines mit einem Glas Wein in der Sonne",
+    },
   },
 };

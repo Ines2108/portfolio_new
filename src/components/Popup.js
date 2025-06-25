@@ -75,17 +75,26 @@ const Popup = ({ children, title, index, text, image, video }) => {
                 dangerouslySetInnerHTML={{ __html: text }}
               />
               <div className="flex justify-center items-center flex-wrap gap-4 mb-4 max-h-[300px] overflow-hidden">
-                {(Array.isArray(image) ? image : [image]).map((img, i) => (
-                  <div
-                    key={i}
-                    className="inline-block max-w-[200px] max-h-[250px]">
-                    <img
-                      src={img}
-                      alt={`${title} ${i + 1}`}
-                      className="w-full h-auto object-contain"
-                    />
-                  </div>
-                ))}
+                {Array.isArray(image) &&
+                  image.map((img, i) => {
+                    if (!img) return null; // schützt vor undefined
+
+                    return (
+                      <div
+                        key={i}
+                        className="inline-block max-w-[200px] max-h-[250px]">
+                        <img
+                          src={typeof img === "string" ? img : img.src}
+                          alt={
+                            typeof img === "string"
+                              ? `${title} ${i + 1}`
+                              : img.alt || `${title} ${i + 1}`
+                          }
+                          className="w-full h-auto object-contain"
+                        />
+                      </div>
+                    );
+                  })}
               </div>
 
               {video && (
