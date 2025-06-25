@@ -38,10 +38,9 @@ Der Name ist geblieben, auch durchs Studium hindurch, wo ich oft die erste Anlau
   strong: {
     title: "STRONG Nation® – Ich schwitz das aus!",
     index: "03 / 05",
-    text: `Neben HTML, CSS & Co. habe ich auch eine ganz andere Lizenz:<br>
-Ich bin zertifizierte STRONG Nation® Trainerin – ein hochintensives Ganzkörper-Workout, das auf Musik abgestimmt ist.<br>
-Mein Geheimrezept gegen stressige Arbeitstage?<br>
-Eine Runde Power, Beats & Burpees – und wenn’s sein muss, bring ich auch Kolleginnen nach Feierabend ordentlich ins Schwitzen (natürlich freiwillig 😄)`,
+    text: `Wenn ich nicht gerade Buttons runde oder Content strukturiere, sorge ich dafür, dass andere ins Schwitzen kommen – als zertifizierte STRONG Nation® Trainerin. <br>
+Das ist ein hochintensives Ganzkörper-Workout, bei dem jede Bewegung im Takt der Musik sitzt. Mein persönliches Mittel gegen stressige Tage: Power, Beats & Burpees.
+Gerne bring ich auch Kolleg*innen nach Feierabend freiwillig zum Schwitzen 😄`,
     video: "https://www.youtube.com/shorts/ayVNHYPDuMI",
   },
   travel: {
