@@ -130,7 +130,7 @@ const ProjectDetailLayout = ({
           </div>
         )}
         {link && (
-          <div className="w-full flex justify-center px-4 -mt-4 pb-12">
+          <div className="w-full flex justify-center px-4 pb-12">
             <a
               href={link.href}
               target="_blank"

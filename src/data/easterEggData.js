@@ -1,7 +1,7 @@
 import Itnes from "../../public/images/easterEggs/ITnes.jpg";
 import skydive from "../../public/images/easterEggs/Ines_Skydive.jpg";
 import walhai from "../../public/images/easterEggs/walhai.jpg";
-import prost from "../../public/images/easterEggs/Ines_mit_Wein.JPG";
+import prost from "../../public/images/easterEggs/Ines_mit_Wein.jpg";
 
 export const easterEggData = {
   intro: {
@@ -48,7 +48,7 @@ Seitdem zieht’s mich immer wieder hinaus in die Welt: <br>
 Fallschirmspringen in Australien? Check. <br>
 Tauchen mit Walhaien auf den Philippinen? Check. <br>
 Ich liebe es, Neues auszuprobieren. Hauptsache, es kitzelt ein bisschen im Bauch. <br>
-Und keine Sorge: Auch beruflich lande ich immer wieder sicher. Meist sogar auf beiden Beinen 😉`,
+Und keine Sorge: Auch beruflich lande ich immer wieder sicher. Meistens sogar auf beiden Beinen 😉`,
     image: [skydive.src, walhai.src],
   },
   happy: {

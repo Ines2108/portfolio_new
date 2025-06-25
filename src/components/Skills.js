@@ -108,7 +108,7 @@ const Skills = () => {
               {techSkills.map((skill, index) => (
                 <motion.div
                   key={index}
-                  className="flex justify-center px-4 py-2 lg:px-8 lg:py-4 border-2 lg:border-4 border-primary rounded-md bg-white text-primary text-sm lg:text-lg font-semibold transition-colors duration-300 hover:bg-primary hover:text-white"
+                  className="flex justify-center px-4 py-2 lg:px-8 lg:py-4 border-2 lg:border-4 border-primary rounded-md bg-white text-primary text-sm lg:text-lg transition-colors duration-300 hover:bg-primary hover:text-white"
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 200 }}>
                   <div className="sm:w-[90px] md:w-[80px] lg:w-[100px] text-center grayscale hover:grayscale-0 transition duration-500">

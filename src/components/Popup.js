@@ -56,42 +56,37 @@ const Popup = ({ children, title, index, text, image, video }) => {
             exit={{ opacity: 0 }}>
             <motion.div
               ref={popupRef}
-              className="bg-light text-dark max-h-[80vh] overflow-y-auto p-6 sm:p-8 rounded-2xl shadow-xl max-w-xl w-[90%] text-center scrollbar-thin"
+              className="bg-light text-dark max-h-[80vh] overflow-y-auto p-6 sm:p-8 rounded-2xl shadow-xl max-w-xl w-[90%] text-center scrollbar-thin 
+             flex flex-col items-center justify-start"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
               transition={{ duration: 0.3 }}>
-              <h3 className="text-xl font-bold normal-case text-primary">
+              <h3 className="text-xl md:text-3xl font-bold normal-case text-primary">
                 {title}
               </h3>
               {index && (
-                <span className="text-base text-primary block">{index}</span>
+                <span className="text-sm md:text-base text-primary block">
+                  {index}
+                </span>
               )}
               <p
                 className="text-base font-normal normal-case text-muted text-justify font-montserrat my-4"
                 dangerouslySetInnerHTML={{ __html: text }}
               />
-
-              {image && (
-                <div className="flex justify-center flex-wrap gap-4 mb-4">
-                  {Array.isArray(image) ? (
-                    image.map((img, i) => (
-                      <img
-                        key={i}
-                        src={img}
-                        alt={`${title} ${i + 1}`}
-                        className="w-full max-w-[200px] object-contain"
-                      />
-                    ))
-                  ) : (
+              <div className="flex justify-center items-center flex-wrap gap-4 mb-4 max-h-[300px] overflow-hidden">
+                {(Array.isArray(image) ? image : [image]).map((img, i) => (
+                  <div
+                    key={i}
+                    className="inline-block max-w-[200px] max-h-[250px]">
                     <img
-                      src={image}
-                      alt={title}
-                      className="w-full max-h-64 object-contain"
+                      src={img}
+                      alt={`${title} ${i + 1}`}
+                      className="w-full h-auto object-contain"
                     />
-                  )}
-                </div>
-              )}
+                  </div>
+                ))}
+              </div>
 
               {video && (
                 <div className="aspect-video w-full rounded-xl overflow-hidden mb-4">
@@ -109,7 +104,7 @@ const Popup = ({ children, title, index, text, image, video }) => {
               <Button
                 onClick={() => setIsOpen(false)}
                 text="Schließen"
-                className="text-base"
+                className="text-base mb-4"
               />
             </motion.div>
           </motion.div>
