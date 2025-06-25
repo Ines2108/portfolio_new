@@ -207,7 +207,7 @@ export const projectsData = [
     sections: [
       {
         heading: "Worum ging's?",
-        text: `Im dritten Semester habe ich gemeinsam mit drei Studienkolleginnen die App „Reco“
+        text: `Im dritten Semester habe ich gemeinsam mit drei Studienkolleg*innen die App „Reco“
         konzipiert – eine Plattform, die Menschen miteinander vernetzt, um Reparaturhilfe im Alltag
         zu ermöglichen. Helferinnen können ihre Fähigkeiten auf Profilen präsentieren, Hilfesuchende posten
         ihre Anliegen mit Text, Bild oder Video. Ein intelligentes Matching bringt beide Seiten

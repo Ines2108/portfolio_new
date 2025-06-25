@@ -72,9 +72,11 @@ Und keine Sorge: Auch beruflich lande ich immer wieder sicher. Meistens sogar au
 Mehr brauch ich nicht, um glücklich zu sein. <br>
 Ob mit Familie, Freund*innen oder Kolleg*innen – am liebsten sitze ich draußen, witzle herum und genieß einfach den Moment. <br>
 (Apropos: Wenn du bis hierher alle Easter Eggs gefunden hast – Prost! Das war das letzte 🎉)`,
-    image: {
-      src: prost.src,
-      alt: "Ines mit einem Glas Wein in der Sonne",
-    },
+    image: [
+      {
+        src: prost.src,
+        alt: "Ines mit einem Glas Wein in der Sonne",
+      },
+    ],
   },
 };

@@ -191,7 +191,7 @@ const Projects = ({ type, title, img, github }) => {
               className="w-full h-auto object-cover rounded-lg"
             />
           </div>
-          <div className="w-[50%] flex flex-col items-end ml-4">
+          <div className="w-[55%] flex flex-col items-end ml-4">
             <span className="text-lg font-semibold text-primary text-right">
               {type}
             </span>
