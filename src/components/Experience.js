@@ -83,7 +83,7 @@ const Experience = () => {
             position="Prozessoptimiererin Finanzen"
             company="CAP.future GmbH"
             companyLink="https://grandgarage.eu/"
-            time="März 2021 - Aug. 2021"
+            time="März 2021 - Sept. 2021"
             address="Peter-Behrens-Platz 6, 4020 Linz"
             work="Eigenständige Abwicklung der gesamten Buchhaltung <br>
 Analyse und Optimierung interner Finanzprozesse zur Effizienzsteigerung"
