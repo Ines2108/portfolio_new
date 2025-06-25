@@ -1,11 +1,15 @@
-import React, { useEffect, useState } from "react";
-import { motion, useScroll } from "framer-motion";
+import React, { useEffect } from "react";
+import { motion, useAnimation, useInView } from "framer-motion";
 
 const LiIcon = ({ reference }) => {
-  const { scrollYProgress } = useScroll({
-    target: reference,
-    offset: ["center end", "center center"],
-  });
+  const isInView = useInView(reference, { once: true, margin: "-20% 0px" });
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      controls.start({ pathLength: 1 });
+    }
+  }, [isInView]);
 
   return (
     <figure className="absolute left-0 stroke-primary">
@@ -25,7 +29,9 @@ const LiIcon = ({ reference }) => {
           cy="50"
           r="20"
           className="stroke-[5px] fill-light"
-          style={{ pathLength: scrollYProgress }}
+          initial={{ pathLength: 0 }}
+          animate={controls}
+          transition={{ duration: 1.2, ease: "easeOut" }}
         />
         <circle
           cx="75"
