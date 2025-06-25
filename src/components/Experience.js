@@ -24,10 +24,10 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             @{company}
           </a>
         </h3>
-        <span className="capitalize text-dark/75 text-xs md:text-base">
+        <span className="block capitalize text-dark/75 text-xs md:text-base leading-tight mb-2">
           {time} | {address}
         </span>
-        <div className="text-sm md:text-base text-muted font-medium font-montserrat leading-relaxed">
+        <div className="text-xs md:text-base text-muted font-medium font-montserrat leading-relaxed">
           {work.split("<br>").map((line, index) => (
             <p key={index} className="before:content-['•'] before:mr-2">
               {line.trim()}

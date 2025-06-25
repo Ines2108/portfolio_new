@@ -23,7 +23,7 @@ const Details = ({ education, school, schoolLink, time, address, note }) => {
             @{school}
           </a>
         </h3>
-        <span className="capitalize text-dark/75 text-xs md:text-base">
+        <span className="block capitalize text-dark/75 text-xs md:text-base leading-tight mb-2">
           {time} | {address}
         </span>
         <p
