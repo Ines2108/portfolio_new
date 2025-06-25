@@ -6,7 +6,7 @@ import prost from "../../public/images/easterEggs/Ines_mit_Wein.JPG";
 export const easterEggData = {
   intro: {
     title: "Fun Fact: Auf dieser Website sind 5 Easter Eggs versteckt!",
-    text: `Auf dieser Seite steckt mehr, als du auf den ersten Blick siehst - Persönliche Geschichten, interessante Seiten meiner beruflichen 
+    text: `Auf dieser Seite steckt mehr, als du auf den ersten Blick siehst: Persönliche Geschichten, interessante Seiten meiner beruflichen 
     Reise und ein paar unerwartete Talente, die man garantiert nicht in einem Lebenslauf findet.<br>
 Zwischen Zeilen, Überschriften und Textpassagen haben sie sich versteckt. <br><br>
 Einfach mal drüberhovern, reinlesen, schmunzeln.`,
