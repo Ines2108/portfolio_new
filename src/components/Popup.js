@@ -50,7 +50,7 @@ const Popup = ({ children, title, index, text, image, video }) => {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="fixed inset-0 z-50 flex items-start md:items-center justify-center bg-dark/70 backdrop-blur-sm overflow-y-auto"
+            className="fixed inset-0 z-50 flex items-start md:items-center justify-center bg-dark/70 backdrop-blur-sm overflow-y-auto !mt-0"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}>
