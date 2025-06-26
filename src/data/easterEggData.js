@@ -1,7 +1,7 @@
 import Itnes from "../../public/images/easterEggs/ITnes.jpg";
 import skydive from "../../public/images/easterEggs/Ines_Skydive.jpg";
 import walhai from "../../public/images/easterEggs/walhai.jpg";
-import prost from "../../public/images/easterEggs/Ines_mit_Wein.JPG";
+import prost from "../../public/images/easterEggs/Ines_mit_Wein.jpeg";
 
 export const easterEggData = {
   intro: {
