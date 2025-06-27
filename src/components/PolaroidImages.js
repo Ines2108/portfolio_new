@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 const images = [
   {
-    src: "/images/aboutMe/Ines_in_Australien.JPG",
+    src: "/images/aboutMe/Ines_in_Australien.jpeg",
     alt: "Ines in Australien bei einem Abenteuer",
   },
   {
