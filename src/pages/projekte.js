@@ -40,14 +40,14 @@ const ProjectsPage = () => {
             }
           />
 
-          <section className="project-section mt-12 mb-32 w-full max-w-[1800px] mx-auto grid grid-cols-1 xs:grid-cols-2 xl:grid-cols-12 gap-24 xl:gap-32">
+          <section className="project-section my-12 xxl:max-w-[1800px] mx-auto grid grid-cols-1 xs:grid-cols-2 xl:grid-cols-12 gap-12 md:gap-24">
             {projectsData.map((project, i) => {
               const isFeatured = project.featured;
               if (isFeatured) {
                 return (
                   <div
                     key={project.slug}
-                    className="col-span-1 xs:col-span-2 xl:col-span-12 flex justify-center">
+                    className="col-span-1 w-full xs:col-span-2 xl:col-span-12 flex justify-center">
                     <Link href={`/projekte/${project.slug}`}>
                       <FeaturedProject
                         title={project.title}

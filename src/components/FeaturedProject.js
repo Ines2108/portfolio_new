@@ -71,7 +71,7 @@ const FeaturedProject = ({ type, title, summary, img, github }) => {
       {/* Große Version (ab 1280px) */}
       <article
         ref={sectionRefLarge}
-        className="relative hidden xl:block w-full mx-auto py-6 sm:p-10 bg-transparent">
+        className="relative hidden xl:block w-full max-w-[1300px] mx-auto py-6 sm:p-10 bg-transparent">
         {/* SVG Rahmen */}
         <div
           ref={svgRefLarge}

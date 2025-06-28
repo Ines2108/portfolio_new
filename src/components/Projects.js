@@ -115,7 +115,7 @@ const Projects = ({ type, title, img, github }) => {
       {/* Medium (md) */}
       <article
         ref={projectSectionRefMedium}
-        className="relative hidden md:flex xl:hidden py-6 justify-center pr-8 min-w-[330px] min-h-[370px]">
+        className="relative hidden md:flex xl:hidden py-6 justify-center pr-8 min-w-[330px] max-w-[365px] min-h-[370px]">
         <div
           ref={projectSvgRefMedium}
           className="absolute inset-0 opacity-0 invisible w-full max-w-[900px] mx-auto flex justify-center items-center">
