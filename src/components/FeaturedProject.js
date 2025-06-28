@@ -207,7 +207,7 @@ const FeaturedProject = ({ type, title, summary, img, github }) => {
             <h2 className="text-xl md:text-2xl font-bold mt-2 !text-right">
               {title}
             </h2>
-            <p className="mt-2 text-gray-700 font-montserrat text-sm md:text-base line-clamp-5">
+            <p className="mt-2 text-gray-700 font-montserrat text-sm md:text-base text-justify line-clamp-5">
               {summary}
             </p>
             {github && (

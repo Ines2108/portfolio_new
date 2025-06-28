@@ -164,13 +164,13 @@ const Projects = ({ type, title, img, github }) => {
       {/* Small (< md) */}
       <article
         ref={projectSectionRefSmall}
-        className="relative md:hidden py-6 flex justify-center w-[300px] min-h-[315px]">
+        className="relative md:hidden py-6 flex justify-center w-[288px] min-h-[315px]">
         <div
           ref={projectSvgRefSmall}
           className="absolute inset-0 opacity-0 invisible w-full mx-auto flex justify-center items-center">
           <svg
             className="absolute inset-0 w-full h-full projects-svg-small"
-            viewBox="0 0 900 1600"
+            viewBox="0 0 960 1600"
             preserveAspectRatio="xMidYMid meet"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +184,7 @@ const Projects = ({ type, title, img, github }) => {
         </div>
 
         <div className="flex flex-col items-center gap-6 w-full mx-auto">
-          <div className="w-full max-w-[180px] ml-4">
+          <div className="w-full max-w-[180px] ml-2">
             <Image
               src={img}
               alt={title}
