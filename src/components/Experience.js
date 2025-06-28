@@ -127,7 +127,7 @@ Analyse und Optimierung interner Finanzprozesse zur Effizienzsteigerung"
             time="Nov. 2014 - Okt. 2015"
             address="Kapuzinerstraße 38, 4020 Linz"
             work="Durchführung der laufenden Buchhaltung (Eingangs- & Ausgangsrechnungen, Bank, Löhne, Zahllauf) <br>
-            Zuständig für die interne Buchhaltung der LeitnerLeitner GmbHg"
+            Zuständig für die interne Buchhaltung der LeitnerLeitner GmbH"
           />
           <Details
             position="Medizinische Sekretärin"
@@ -135,7 +135,7 @@ Analyse und Optimierung interner Finanzprozesse zur Effizienzsteigerung"
             companyLink="https://www.klinikum-wegr.at/de"
             time="Nov. 2013 - Juni 2014"
             address="Peter-Behrens-Platz 6, 4020 Linz"
-            work="Erstellung medizinischer Dokumente (Arztbriefe, Anamnesen) nach Diktatg <br>
+            work="Erstellung medizinischer Dokumente (Arztbriefe, Anamnesen) nach Diktat <br>
             Patientenaufnahme und Administration am Empfang"
           />
         </ul>
