@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { GithubIcon, LinkedInIcon } from "./Icons";
+import { EmailIcon, GithubIcon, LinkedInIcon } from "./Icons";
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 
@@ -104,6 +104,12 @@ const NavBar = () => {
             target={"_blank"}>
             <LinkedInIcon />
           </a>
+          <a
+            href="mailto:ines.niedermaier@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer">
+            <EmailIcon />
+          </a>
         </nav>
       </div>
 
@@ -141,6 +147,12 @@ const NavBar = () => {
               href="hhttps://www.linkedin.com/in/ines-niedermaier-48466a211/"
               target={"_blank"}>
               <LinkedInIcon />
+            </a>
+            <a
+              href="mailto:ines.niedermaier@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer">
+              <EmailIcon />
             </a>
           </nav>
         </motion.div>
