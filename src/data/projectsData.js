@@ -130,24 +130,22 @@ export const projectsData = [
       komplexen Home-Energy-Management-App – konkret der PV-App von Fronius – für Endnutzer:innen spannender, 
       intuitiver und motivierender gestaltet werden? Ziel war es, Barrieren abzubauen, Motivation zu fördern 
       und Funktionen an den tatsächlichen Bedürfnissen auszurichten. 
-      Zum Abschluss präsentierten wir unsere Lösungsideen in einem Pitch – inklusive kreativem Rollenspiel, 
-      als würden wir unser Produkt tatsächlich an Kund:innen verkaufen.`,
+      Zum Abschluss präsentierten wir unsere Lösungsideen in einem Pitch.`,
       },
       {
         heading: "Mein Beitrag und Learning",
-        text: `Ich war gemeinsam mit vier zufällig zusammengelosten Studienkolleg:innen – ganz im Sinne realer 
-      Projektteams – in allen Phasen des Design Thinking Prozesses involviert. Besonders spannend war es, 
+        text: `Ich war gemeinsam mit vier Studienkolleg*innen in allen Phasen des Design Thinking Prozesses involviert. Besonders spannend war es, 
       zu erleben, wie sich unsere Motivationskurve während des Prozesses verändert hat: 
       Anfangs sprudelten wir vor Ideen und waren voller Euphorie bis unsere durchgeführten Interviews mit 
-      PV-App-Nutzer:innen unsere Annahmen ins Wanken brachten. Viele unserer frühen Ideen waren schlicht 
-      an der Realität vorbei gedacht. Das war ein kleiner Dämpfer – aber auch ein wertvoller Aha-Moment. <br>
+      PV-App-Nutzer*innen unsere Annahmen ins Wanken brachten. Viele unserer frühen Ideen waren schlicht 
+      an der Realität vorbei gedacht. Das war ein kleiner Dämpfer, aber auch ein wertvoller Aha-Moment. <br>
       
       In der Ideation-Phase fiel es uns anfangs schwer, wirklich frei und außerhalb gewohnter Denkmuster zu 
-      denken. Die Aufforderung, „so unrealistisch wie möglich“ zu brainstormen, war zunächst ungewohnt – aber 
+      denken. Die Aufforderung, „so unrealistisch wie möglich“ zu brainstormen, war zunächst ungewohnt, aber 
       genau das brachte uns letztlich auf eine originelle, nutzerzentrierte Lösung. <br>
       
       Die Motivation stieg spürbar, als wir begannen, unsere Idee in Prototypen zu übersetzen – visuell, greifbar, 
-      konkret. Das Ergebnis: ein durchdachtes, visuelles App-Konzept mit Widgets, Tipps und Belohnungssystemen. 
+      konkret. Das Ergebnis ist ein durchdachtes, visuelles App-Konzept mit Widgets, Tipps und Belohnungssystemen. 
       Die Auftraggeberin von Fronius war bei der Abschlusspräsentation sichtlich begeistert.`,
       },
       {
@@ -194,8 +192,7 @@ export const projectsData = [
       {
         heading: "Worum ging’s?",
         text: `Im Rahmen unseres Praxisprojektes im 6. Semester produzierten ich und sieben weitere Studienkolleg*innen ein Imagevideo für die Freiwillige Feuerwehr Hagenberg. 
-      Ziel war es, das ehrenamtliche Engagement, den Teamgeist und die Vielfalt an Aufgaben sichtbar zu machen
-      mit dem klaren Ziel, neue Mitglieder zu gewinnen und die Öffentlichkeit für die Arbeit der Feuerwehr zu sensibilisieren. 
+Ziel war es, die Arbeit der Feuerwehr authentisch und ansprechend darzustellen mit dem klaren Fokus, neue Mitglieder*innen zu gewinnen.
       Von der Konzeption über das Drehbuch bis zum finalen Schnitt haben wir als Team alle Schritte eigenständig umgesetzt.`,
       },
       {
@@ -204,14 +201,13 @@ export const projectsData = [
       und der visuellen Aufbereitung. Zusätzlich war ich auch beim Action-Dreh verantwortlich für die Technik und unterstützte 
       Kamera- und Setaufbau. Besonders herausfordernd war der Einstieg in die Postproduktion: Wir hatten unglaublich viel Rohmaterial, 
       das uns anfangs ehrlich gesagt etwas überfordert hat. Doch sobald wir den ersten Schnitt angesetzt hatten, kamen wir immer besser 
-      in den Flow – und es war beeindruckend zu sehen, wie sich aus den vielen einzelnen Fragmenten eine durchdachte, emotionale Geschichte 
+      in den Flow und es war beeindruckend zu sehen, wie sich aus den vielen einzelnen Fragmenten eine durchdachte, emotionale Geschichte 
       formen ließ.
       Eine spannende Herausforderung war es außerdem, Interviews, Action-Szenen und Musik so aufeinander abzustimmen, dass ein 
-      stimmiger Gesamteindruck entsteht – und das bei vollem technischen Anspruch, inklusive Drohnenaufnahmen, Spezialeffekten und 
-      mehreren Drehorten.
+      stimmiger Gesamteindruck entsteht.
       Das fertige Video darf aktuell leider noch nicht öffentlich gezeigt werden, da die Feuerwehr es erst im Rahmen ihres Jubiläums 
-      im September offiziell präsentiert.
-      Aber: Wer es unbedingt sehen will – bei einem Kennenlernen bring ich's gerne mit.`,
+      im September offiziell präsentiert. <br>
+      Aber ich zeig’s gerne bei einem persönlichen Gespräch her. Spoiler: Es ist definitiv einen Blick wert 😉`,
       },
       {
         heading: "Eingesetzte Technologien & Tools",
