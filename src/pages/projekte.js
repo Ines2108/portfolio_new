@@ -26,14 +26,14 @@ const ProjectsPage = () => {
             className="mb-10 text-primary"
             text={
               <>
-                Ein paar meiner{" "}
+                Ideen mit{" "}
                 <Popup
                   title={easterEggData.happy.title}
                   text={easterEggData.happy.text}
                   index={easterEggData.happy.index}
                   image={easterEggData.happy.image}>
                   <span className="cursor-pointer hover:text-secundary transition">
-                    Lieblingsprojekte
+                    Output
                   </span>
                 </Popup>
               </>

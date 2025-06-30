@@ -170,6 +170,17 @@ const NavBar = () => {
               rel="noopener noreferrer">
               <EmailIcon />
             </a>
+            {router.asPath.startsWith("/projekte") && (
+              <Popup
+                title={easterEggData.booknerd.title}
+                text={easterEggData.booknerd.text}
+                index={easterEggData.booknerd.index}
+                image={easterEggData.booknerd.image}>
+                <span className="cursor-pointer">
+                  <BookIcon className="w-6 h-6 text-primary hover:text-secundary transition" />
+                </span>
+              </Popup>
+            )}
           </nav>
         </motion.div>
       ) : null}
