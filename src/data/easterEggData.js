@@ -88,7 +88,7 @@ Falls du das auch feierst (oder zumindest kennst): Welcome to the Night Court. W
     ],
   },
   happy: {
-    title: "Lieblingsteil: der Schluss mit Wein",
+    title: "Wenn der Output Pause hat",
     index: "06 / 06",
     text: `Sonne, frische Luft, gute Gesellschaft und vielleicht ein kaltes Bier oder ein Glaserl Wein:
 Mehr brauch ich nicht, um glücklich zu sein. <br>
