@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { EmailIcon, GithubIcon, LinkedInIcon } from "./Icons";
+import { BookIcon, EmailIcon, GithubIcon, LinkedInIcon } from "./Icons";
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
+import Popup from "./Popup";
+import { easterEggData } from "@/data/easterEggData";
 
 const Logo = dynamic(() => import("@/components/Logo"), {
   ssr: false,
@@ -52,6 +54,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
 
   const handleClick = () => {
     setIsOpen(!isOpen);
@@ -112,6 +115,17 @@ const NavBar = () => {
             rel="noopener noreferrer">
             <EmailIcon />
           </a>
+          {router.asPath.startsWith("/projekte") && (
+            <Popup
+              title={easterEggData.booknerd.title}
+              text={easterEggData.booknerd.text}
+              index={easterEggData.booknerd.index}
+              image={easterEggData.booknerd.image}>
+              <span className="cursor-pointer">
+                <BookIcon className="w-6 h-6 text-primary hover:text-secundary transition" />
+              </span>
+            </Popup>
+          )}
         </nav>
       </div>
 

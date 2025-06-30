@@ -49,7 +49,7 @@ const AboutText = () => {
             text={easterEggData.strong.text}
             index={easterEggData.strong.index}
             video={easterEggData.strong.video}>
-            <span className="cursor-pointer hover:text-secundary transition">
+            <span className="cursor-pointer hover:text-secundary hover:font-bold transition">
               STRONG Nation® Kurs
             </span>
           </Popup>{" "}

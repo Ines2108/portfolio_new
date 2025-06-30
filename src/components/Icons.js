@@ -63,6 +63,25 @@ export const EmailIcon = ({ className, ...rest }) => (
   </motion.svg>
 );
 
+export const BookIcon = ({ className, ...rest }) => (
+  <motion.svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 256 256"
+    width="1.5em"
+    height="1.5em"
+    {...rest}
+    className={`w-full h-auto ${className}`}
+    initial={{ color: "#F85654" }}
+    whileHover={{ y: -2, color: "#4241B9" }}
+    transition={{ duration: 0.2 }}>
+    <rect width="256" height="256" fill="currentColor" rx="60" />
+    <path
+      fill="#fff"
+      d="M192 64H96a8 8 0 0 0-8 8v8H72a8 8 0 0 0-8 8v96a8 8 0 0 0 8 8h112a8 8 0 0 0 8-8V72a8 8 0 0 0-8-8Zm-96 24h88v80h-88Zm0 88v8H72v-8Zm96 8h-8v-8h8ZM72 88h16v80H72Zm24 0h80v80h-80Z"
+    />
+  </motion.svg>
+);
+
 export const SunIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

@@ -112,7 +112,8 @@ export default function Home() {
                 <Popup
                   title={easterEggData.frontend.title}
                   text={easterEggData.frontend.text}
-                  index={easterEggData.frontend.index}>
+                  index={easterEggData.frontend.index}
+                  image={easterEggData.frontend.image}>
                   <span className="cursor-pointer hover:text-secundary transition">
                     Frontend Developer
                   </span>
