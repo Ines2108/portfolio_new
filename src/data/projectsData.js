@@ -65,6 +65,10 @@ export const projectsData = [
       ...kesslerSocialMeidaChallenge,
       alt: "Kessler Social Media Challenge",
     },
+    link: {
+      label: "zur Canva-Seite",
+      href: "https://www.canva.com/design/DAGrz77zJ0I/zMob2V_rOa9JSkeK7RsHCw/edit?utm_content=DAGrz77zJ0I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    },
     youtube: "https://www.youtube.com/watch?v=PK5-PQICAVA",
     sections: [
       {
@@ -75,9 +79,28 @@ export const projectsData = [
       },
       {
         heading: "Mein Beitrag und Learning",
-        text: `Für mich war es unglaublich spannend, den kompletten Videoprozess mitzugestalten:
-        vom Konzept über den Drehplan bis zur Kameraarbeit (Handhabung drei Black Magics) und Lichtsetzung. 
-        Besonders viel Spaß machte mir aber auch die Kampagnenplanung rund ums Video. Sie war so durchdacht, dass unsere Professor*innen sie vermutlich sofort gelauncht hätten.`,
+        text: `Für mich war es unglaublich spannend, den kompletten Videoprozess hautnah mitzugestalten
+         – von der ersten Idee bis zum finalen Konzept, vom Drehplan bis zur Umsetzung mit Kamera und Licht.
+        Besonders herausfordernd war es, über zehn Personen für unser Social Experiment zu gewinnen
+         und das an einem Sonntagvormittag. Die Organisation war anspruchsvoll, denn nicht nur die 
+         Teilnehmer*innen mussten motiviert und zeitlich koordiniert werden, auch ein geeigneter Raum 
+         war gar nicht so leicht zu finden. Als wir schließlich einen Raum hatten, ging es direkt weiter 
+         mit der nächsten Hürde: eine spannende Bildwirkung durch gezielte Lichtsetzung zu erzeugen 
+         mit einfachen Mitteln, aber großem Anspruch. <br>
+
+        Auch die Technik verlangte uns einiges ab: Wir arbeiteten mit drei Black Magic Kameras parallel. Allein 
+        das Setup und die Bedienung waren anfangs eine Herausforderung. Besonders das Einfangen von Gesichtsausdrücken 
+        in den Detailaufnahmen war technisch und gestalterisch anspruchsvoll, aber umso faszinierender, als wir den 
+        Dreh wirklich im Griff hatten. <br>
+
+        Parallel zum Videodreh entwickelten wir eine starke Awareness-Kampagne, die das Thema visuell und inhaltlich 
+        weiterträgt. Eine meiner Lieblingsideen war dabei die Reverse-Graffiti-Aktion: Mit Wasser gereinigte Motive 
+        auf schmutzige Flächen zu sprühen, wurde zur eindrucksvollen Metapher für das „Saubermachen“ des Weltalls. 
+        Diese Form des stillen Protests verbindet Nachhaltigkeit, Überraschungseffekt und visuelle Wirkung und hat 
+        in ihrer Einfachheit sofort überzeugt. <br>
+
+        Insgesamt war es ein intensives, lehrreiches und kreatives Projekt, das nicht nur technisch gefordert, sondern 
+        auch richtig Spaß gemacht hat und das man (wie wir fanden) genauso gut in die Realität umsetzen könnte.`,
       },
       {
         heading: "Eingesetzte Technolgien",
