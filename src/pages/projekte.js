@@ -21,7 +21,7 @@ const ProjectsPage = () => {
         <meta name="description" content="Ines' Projects" />
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
-        <Layout className="pt-16">
+        <Layout className="pt-16 mb-12 md:mb-32">
           <AnimatedHeadline
             className="mb-10 text-primary"
             text={
@@ -40,7 +40,7 @@ const ProjectsPage = () => {
             }
           />
 
-          <section className="project-section my-12 xxl:max-w-[1800px] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-12 md:gap-24">
+          <section className="project-section mt-12 xxl:max-w-[1800px] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-12 md:gap-24">
             {projectsData.map((project) => {
               const isFeatured = project.featured;
               const href = `/projekte/${project.slug}`;
