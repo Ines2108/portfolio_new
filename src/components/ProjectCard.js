@@ -39,8 +39,8 @@ const ProjectCard = ({ img, title, type, github }) => {
         }}
         layoutConfig={{
           wrapper: "w-[320px] h-[400px] flex-col mt-6 items-center gap-6",
-          image: "w-full max-w-[240px] z-10",
-          content: "max-w-[240px] w-full items-end text-righ",
+          image: "w-full max-w-[250px] z-10",
+          content: "max-w-[250px] w-full items-end text-righ",
           title: "text-xl md:text-2xl",
         }}
       />
