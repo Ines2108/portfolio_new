@@ -43,17 +43,16 @@ const Education = () => {
   });
 
   return (
-    <div className="mt-32 mb-20 md:mb-48">
+    <div className="mt-32 mb-12 md:mb-32">
       <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-primary font-bold text-center mb-16">
         Mein Wissensweg
       </h2>
       <div ref={ref} className="w-full mx-auto relative lg:w-[90%] md:w-[75%]">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-[20px] top-0 w-[2px] h-[110%] bg-primary origin-top
+          className="absolute left-[20px] top-0 w-[2px] h-[150%] sm:h-[130%] xxl:h-[165%] bg-primary origin-top
           md:w-[4px] md:left-9 xs:left-[30px]"
         />
-
         <ul className="w-full flex flex-col items-start justify-between ml-2 md:ml-4">
           <Details
             education="Bachelor of Science in Kommunikation, Wissen, Medien"

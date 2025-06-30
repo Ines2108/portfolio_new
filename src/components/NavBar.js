@@ -6,10 +6,12 @@ import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 
 const Logo = dynamic(() => import("@/components/Logo"), {
-  ssr: false, // Deaktiviert SSR für diesen Component
+  ssr: false,
 });
 const CustomLink = ({ href, title, className }) => {
   const router = useRouter();
+  const isActive =
+    router.asPath === href || router.asPath.startsWith(`${href}/`);
 
   return (
     <Link href={href} className={`${className} relative group`}>
@@ -17,7 +19,7 @@ const CustomLink = ({ href, title, className }) => {
       <span
         className={`h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5
       group-hover:w-full transition-[width] ease duration-300 
-      ${router.asPath === href ? "w-full" : "w-0"}`}>
+      ${isActive ? "w-full" : "w-0"}`}>
         &nbsp;
       </span>
     </Link>

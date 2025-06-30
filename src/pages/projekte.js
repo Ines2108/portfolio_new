@@ -1,12 +1,12 @@
 import Layout from "@/components/Layout";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import FeaturedProject from "@/components/FeaturedProject";
-import Projects from "@/components/Projects";
 import { projectsData } from "@/data/projectsData";
 import Link from "next/link";
 import { easterEggData } from "@/data/easterEggData";
 import Popup from "@/components/Popup";
+import FeaturedProjectCard from "@/components/FeaturedProjectCard";
+import ProjectCard from "@/components/ProjectCard";
 
 const AnimatedHeadline = dynamic(
   () => import("@/components/AnimatedHeadline"),
@@ -40,39 +40,39 @@ const ProjectsPage = () => {
             }
           />
 
-          <section className="project-section my-12 xxl:max-w-[1800px] mx-auto grid grid-cols-1 xs:grid-cols-2 xl:grid-cols-12 gap-12 md:gap-24">
-            {projectsData.map((project, i) => {
+          <section className="project-section my-12 xxl:max-w-[1800px] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-12 md:gap-24">
+            {projectsData.map((project) => {
               const isFeatured = project.featured;
-              if (isFeatured) {
-                return (
-                  <div
-                    key={project.slug}
-                    className="col-span-1 w-full xs:col-span-2 xl:col-span-12 flex justify-center">
-                    <Link href={`/projekte/${project.slug}`}>
-                      <FeaturedProject
+              const href = `/projekte/${project.slug}`;
+
+              return (
+                <div
+                  key={project.slug}
+                  className={`col-span-1 w-full ${
+                    isFeatured
+                      ? "xl:col-span-12 md:col-span-2"
+                      : "xl:col-span-6"
+                  } flex justify-center`}>
+                  <Link href={href} className="flex justify-center">
+                    {isFeatured ? (
+                      <FeaturedProjectCard
                         title={project.title}
-                        img={project.img1}
-                        summary={project.sections[0].text}
                         type={project.type}
+                        summary={project.sections?.[0]?.text}
+                        img={project.img1}
+                        github={project.github}
                       />
-                    </Link>
-                  </div>
-                );
-              } else {
-                return (
-                  <div
-                    key={project.slug}
-                    className="col-span-1 xl:col-span-6 flex justify-center mt-0 xl:-mt-20">
-                    <Link href={`/projekte/${project.slug}`}>
-                      <Projects
+                    ) : (
+                      <ProjectCard
                         title={project.title}
-                        img={project.img1}
                         type={project.type}
+                        img={project.img1}
+                        github={project.github}
                       />
-                    </Link>
-                  </div>
-                );
-              }
+                    )}
+                  </Link>
+                </div>
+              );
             })}
           </section>
         </Layout>

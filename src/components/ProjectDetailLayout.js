@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Button from "@/components/ButtonPrimary";
 import dynamic from "next/dynamic";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useMemo, useRef, useState } from "react";
+import { useRef } from "react";
 
 const AnimatedHeadline = dynamic(
   () => import("@/components/AnimatedHeadline"),
@@ -60,7 +60,6 @@ const ProjectDetailLayout = ({
     <main className="flex w-full min-h-screen justify-stretch">
       <Layout className="pt-16">
         <div className="grid grid-cols-1 xl:grid-cols-2 relative">
-          {/* TEXT LINKS */}
           <div className="relative z-10 lg:pr-12">
             <AnimatedHeadline
               text={title}
@@ -76,9 +75,9 @@ const ProjectDetailLayout = ({
                 <h2
                   className="text-2xl font-bold mb-3 text-primary"
                   dangerouslySetInnerHTML={{ __html: section.heading }}></h2>
-                <p className="text-base leading-relaxed font-montserrat text-justify text-muted">
-                  {section.text}
-                </p>
+                <p
+                  className="text-base leading-relaxed font-montserrat text-justify text-muted"
+                  dangerouslySetInnerHTML={{ __html: section.text }}></p>
               </motion.div>
             ))}
           </div>

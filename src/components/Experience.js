@@ -43,7 +43,7 @@ const Experience = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start end", "end start"],
+    offset: ["start end", "end center"],
   });
 
   return (
@@ -57,7 +57,6 @@ const Experience = () => {
           className="absolute left-[20px] top-0 w-[2px] h-full bg-primary origin-top
     md:w-[4px] md:left-9 xs:left-[30px]"
         />
-
         <ul className="w-full flex flex-col items-start justify-between ml-2 md:ml-4">
           <Details
             position="Praktikum Frontend"

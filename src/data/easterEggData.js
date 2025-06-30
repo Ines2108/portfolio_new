@@ -38,9 +38,10 @@ Der Name ist geblieben, auch durchs Studium hindurch, wo ich oft die erste Anlau
   strong: {
     title: "STRONG Nation® – Ich schwitz das aus!",
     index: "03 / 05",
-    text: `Wenn ich nicht gerade Buttons runde oder Content strukturiere, sorge ich dafür, dass andere ins Schwitzen kommen – als zertifizierte STRONG Nation® Trainerin. <br>
-Das ist ein hochintensives Ganzkörper-Workout, bei dem jede Bewegung im Takt der Musik sitzt. Mein persönliches Mittel gegen stressige Tage: Power, Beats & Burpees.
-Gerne bring ich auch Kolleg*innen nach Feierabend freiwillig zum Schwitzen 😄`,
+    text: `Kreatives Arbeiten am Bildschirm ist mein Ding, aber manchmal muss die Energie einfach raus.
+    Als zertifizierte STRONG Nation® Trainerin liebe ich es, nach einem langen Tag körperlich Vollgas zu geben. <br>
+STRONG Nation® ist ein hochintensives Ganzkörper-Workout, bei dem jede Bewegung im Takt der Musik sitzt. Mein persönliches Mittel gegen stressige Tage: Power, Beats & Burpees.
+Gerne bring ich auch Kolleg*innen nach Feierabend zum Schwitzen 😄`,
     video: "https://www.youtube.com/shorts/ayVNHYPDuMI",
   },
   travel: {

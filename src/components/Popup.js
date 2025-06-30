@@ -66,7 +66,7 @@ const Popup = ({ children, title, index, text, image, video }) => {
                 {title}
               </h3>
               {index && (
-                <span className="text-sm md:text-base font-normal text-primary block">
+                <span className="text-sm md:text-base font-bold text-primary block">
                   {index}
                 </span>
               )}
