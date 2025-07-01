@@ -14,7 +14,7 @@ const AboutText = () => {
             index={easterEggData.itnes.index}
             image={easterEggData.itnes.image}>
             <span className="cursor-pointer hover:text-secundary transition">
-              ITnes
+              IT-nes
             </span>
           </Popup>
         </h2>
