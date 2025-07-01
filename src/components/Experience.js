@@ -88,19 +88,7 @@ const Experience = () => {
 Analyse und Optimierung interner Finanzprozesse zur Effizienzsteigerung"
           />
           <Details
-            position={
-              <>
-                <Popup
-                  title={easterEggData.travel.title}
-                  text={easterEggData.travel.text}
-                  index={easterEggData.travel.index}
-                  image={easterEggData.travel.image}>
-                  <span className="cursor-pointer hover:text-secundary transition">
-                    Bilanzbuchhalterin
-                  </span>
-                </Popup>
-              </>
-            }
+            position="Bilanzbuchhalterin"
             company="Intersport Austria GmbH"
             companyLink="https://www.intersport.at"
             time="Jan. 2019 - Dez. 2020"
@@ -110,7 +98,19 @@ Analyse und Optimierung interner Finanzprozesse zur Effizienzsteigerung"
         Schnittstelle zu Steuerberater*innen und Finanzbehörden"
           />
           <Details
-            position="Buchhalterin / Bilanzbuchhalterin"
+            position={
+              <>
+                <Popup
+                  title={easterEggData.travel.title}
+                  text={easterEggData.travel.text}
+                  index={easterEggData.travel.index}
+                  image={easterEggData.travel.image}>
+                  <span className="cursor-pointer hover:text-secundary transition">
+                    Buchhalterin / Bilanzbuchhalterin
+                  </span>
+                </Popup>
+              </>
+            }
             company="Hofer KG"
             companyLink="https://www.hofer.at/de/homepage.html"
             time="Nov. 2015 - Aug. 2018"
