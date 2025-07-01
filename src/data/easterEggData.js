@@ -19,7 +19,7 @@ Einfach mal drüberhovern, reinlesen, schmunzeln.`,
     text: `Ich dachte lange, mein Herz schlägt für Code.<br>
 Doch während meines Frontend-Praktikums habe ich gemerkt: Mir fehlt etwas. Der kreative Spielraum, das Designen, das Konzipieren.
 Das hat mir die Augen geöffnet: Ich will Ideen zum Leben bringen, nicht nur Code zum Laufen. <br><br>
-Kleiner Fun Fact am Rande: Ich habe diese Seite selbst programmiert – mit mehr Schweiß und Verzweiflungsausbrüchen 
+Kleiner Fun Fact am Rande: Ich habe dieses Portfolio selbst programmiert – mit mehr Schweiß und Verzweiflungsausbrüchen 
 als Glücksmomenten. Aber immerhin läuft sie. Und sieht dabei ganz passabel aus, oder?`,
     image: [
       {
@@ -45,7 +45,7 @@ Der Name ist geblieben, auch durchs Studium hindurch, wo ich oft die erste Anlau
   },
   strong: {
     title: "STRONG Nation® – Ich schwitz das aus!",
-    index: "03 / 05",
+    index: "03 / 06",
     text: `Kreatives Arbeiten am Bildschirm ist mein Ding, aber manchmal muss die Energie einfach raus.
     Als zertifizierte STRONG Nation® Trainerin liebe ich es, nach einem langen Tag körperlich Vollgas zu geben. <br>
 STRONG Nation® ist ein hochintensives Ganzkörper-Workout, bei dem jede Bewegung im Takt der Musik sitzt. Mein persönliches Mittel gegen stressige Tage: Power, Beats & Burpees.
