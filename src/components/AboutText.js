@@ -21,25 +21,26 @@ const AboutText = () => {
       </div>
       <div className="pt-4 font-montserrat text-base xl:text-lg text-justify">
         <p>
-          Ich bin 30 Jahre alt, studiere Kommunikation, Wissen und Medien in
-          Hagenberg und liebe alles, was mit Gestaltung, Technik und kreativen
-          Ideen zu tun hat.
+          Ich bin 30 Jahre alt, habe bald meinen Abschluss in Kommunikation,
+          Wissen, Medien in Hagenberg in der Tasche und liebe es, Inhalte zu
+          gestalten, die berühren, begeistern und in Erinnerung bleiben.
         </p>
         <br />
         <p>
-          Früher habe ich mich in der Finanzwelt durch Tabellen gekämpft, aber
-          irgendwann wurde mir klar: Mein Herz schlägt nicht für Zahlen, sondern
-          für Design. Seitdem bin ich mit Leidenschaft in der digitalen Welt
-          unterwegs – irgendwo zwischen UX/UI Design, Marketing, Videoschnitt
-          und dem Entdecken neuer Tools, die mir das Leben erleichtern.
+          Früher habe ich mich in der Finanzwelt durch Tabellen gekämpft bis mir
+          klar wurde: Mein Herz schlägt nicht für Zahlen, sondern für kreative
+          Ideen und dafür, ihnen Ausdruck zu verleihen. Seitdem bin ich mit
+          Leidenschaft in der digitalen Welt unterwegs – irgendwo zwischen
+          UX/UI-Design, Marketing, Videoschnitt und dem Entdecken neuer Tools,
+          die das Arbeiten leichter und spannender machen.
         </p>
         <br />
         <p>
           Ich bin ein kreativer Allrounder, der technische Raffinesse gerne mit
           Ästhetik verbindet. Ob ich gerade eine Benutzeroberfläche optimiere,
-          eine Website programmiere, eine Videokampagne schneide oder ein
-          Konzept zaubere – ich liebe es, Dinge zu erschaffen, die nicht nur
-          hübsch aussehen, sondern auch Sinn machen.
+          eine Videokampagne schneide oder ein Konzept zaubere – ich liebe es,
+          Dinge zu erschaffen, die nicht nur hübsch aussehen, sondern auch Sinn
+          machen und Emotionen auslösen.
         </p>
         <br />
         <div className="space-y-4 font-montserrat text-base xl:text-lg text-justify">

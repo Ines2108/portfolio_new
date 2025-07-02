@@ -8,9 +8,8 @@ import code from "../../public/images/easterEggs/Ines_am_verzweifeln.jpeg";
 export const easterEggData = {
   intro: {
     title: "Fun Fact: Auf dieser Website sind 6 Easter Eggs versteckt!",
-    text: `Auf dieser Seite steckt mehr, als du auf den ersten Blick siehst: Persönliche Geschichten, interessante Seiten meiner beruflichen 
-    Reise und ein paar unerwartete Talente, die man garantiert nicht in einem Lebenslauf findet.<br>
-Zwischen Zeilen, Überschriften und Textpassagen haben sie sich versteckt. <br><br>
+    text: `In diesem Portfolio steckt mehr als nur Projekte: persönliche Geschichten, überraschende Einblicke und ein paar Seiten, die man so sicher nicht im Lebenslauf findet.
+Zwischen Headlines, Textzeilen und kleinen Details haben sie sich versteckt. <br><br>
 Einfach mal drüberhovern, reinlesen, schmunzeln.`,
   },
   frontend: {
