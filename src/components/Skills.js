@@ -17,6 +17,7 @@ const techSkills = [
   "Typo3",
   "Figma",
   "Balsamiq",
+  "Canva",
 ];
 
 const Skills = () => {
@@ -55,7 +56,7 @@ const Skills = () => {
         <div className="block sm:hidden relative w-full">
           <div
             ref={svgRefSmall}
-            className="relative opacity-0 invisible w-full h-0 pb-[140%]">
+            className="relative opacity-0 invisible w-full h-0 pb-[155%] xs:pb-[140%]">
             <svg
               className="absolute inset-0 w-full h-full tech-svg"
               viewBox="0 0 880 1380"
@@ -70,7 +71,7 @@ const Skills = () => {
               />
             </svg>
 
-            <div className="absolute top-[-15px] left-0 w-full h-full grid grid-cols-2 gap-3 px-6 py-12 place-items-center">
+            <div className="absolute top-[-25px] xs:top-[-15px] left-0 w-full h-full grid grid-cols-2 gap-3 px-6 py-12 place-items-center">
               {techSkills.map((skill, index) => (
                 <motion.div
                   key={index}

@@ -15,9 +15,12 @@ Einfach mal drüberhovern, reinlesen, schmunzeln.`,
   frontend: {
     title: "Mehr als Code – mein kreativer Aha-Moment",
     index: "01 / 06",
-    text: `Ich dachte lange, mein Herz schlägt für Code.<br>
-Doch während meines Frontend-Praktikums habe ich gemerkt: Mir fehlt etwas. Der kreative Spielraum, das Designen, das Konzipieren.
-Das hat mir die Augen geöffnet: Ich will Ideen zum Leben bringen, nicht nur Code zum Laufen. <br><br>
+    text: `Ich dachte lange, mein Herz schlägt ausschließlich für Code.
+Doch während meines Frontend-Praktikums habe ich gemerkt: Da geht noch mehr. Mir fehlt der kreative Spielraum – 
+das Gestalten, Konzipieren, Erzählen.
+Heute weiß ich: Ich liebe es, mich zwischen Welten zu bewegen. Mal tief eintauchen in Technik und Logik, 
+dann wieder rauszoomen, um Ideen zu formen, Interfaces zu gestalten oder Videos zum Leben zu erwecken. 
+Genau diese Abwechslung ist mein Ding. <br><br>
 Kleiner Fun Fact am Rande: Ich habe dieses Portfolio selbst programmiert – mit mehr Schweiß und Verzweiflungsausbrüchen 
 als Glücksmomenten. Aber immerhin läuft sie. Und sieht dabei ganz passabel aus, oder?`,
     image: [
