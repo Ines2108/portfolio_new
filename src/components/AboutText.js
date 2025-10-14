@@ -14,16 +14,16 @@ const AboutText = () => {
             index={easterEggData.itnes.index}
             image={easterEggData.itnes.image}>
             <span className="cursor-pointer hover:text-secundary transition">
-              IT-nes
+              IT-nes.
             </span>
           </Popup>
         </h2>
       </div>
       <div className="pt-4 font-montserrat text-base xl:text-lg text-justify">
         <p>
-          Ich bin 30 Jahre alt, habe bald meinen Abschluss in Kommunikation,
-          Wissen, Medien in Hagenberg in der Tasche und liebe es, Inhalte zu
-          gestalten, die berühren, begeistern und in Erinnerung bleiben.
+          Ich bin 31 Jahre alt, habe einen Abschluss in Kommunikation, Wissen,
+          Medien in Hagenberg gemacht und liebe es, Inhalte zu gestalten, die
+          berühren, begeistern und in Erinnerung bleiben.
         </p>
         <br />
         <p>
@@ -36,11 +36,11 @@ const AboutText = () => {
         </p>
         <br />
         <p>
-          Ich bin ein kreativer Allrounder, der technische Raffinesse gerne mit
-          Ästhetik verbindet. Ob ich gerade eine Benutzeroberfläche optimiere,
-          eine Videokampagne schneide oder ein Konzept zaubere – ich liebe es,
-          Dinge zu erschaffen, die nicht nur hübsch aussehen, sondern auch Sinn
-          machen und Emotionen auslösen.
+          Ich bin eine kreative Allrounderin, die technische Raffinesse gerne
+          mit Ästhetik verbindet. Ob ich gerade eine Benutzeroberfläche
+          optimiere, eine Videokampagne schneide oder ein Konzept zaubere – ich
+          liebe es, Dinge zu erschaffen, die nicht nur hübsch aussehen, sondern
+          auch Sinn machen und Emotionen auslösen.
         </p>
         <br />
         <div className="space-y-4 font-montserrat text-base xl:text-lg text-justify">

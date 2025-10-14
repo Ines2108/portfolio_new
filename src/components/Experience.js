@@ -59,6 +59,19 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-2 md:ml-4">
           <Details
+            position="Online Marketing Managerin"
+            company="RIKA Innovative Ofentechnik GmbH"
+            companyLink="https://www.rika.at/"
+            time="Sep. 2025 - jetzt"
+            address="Müllerviertel 20, 4563 Micheldorf"
+            work="Planung und Steuerung von Online-Marketing-Kampagnen <br>
+Erstellung von Landingpages <br>
+Weiterentwicklung des CMS (Craft) <br>
+Projektmanagement und Schnittstelle zu externen Agenturen <br>
+Enge Zusammenarbeit mit Texter*innen, Grafiker*innen und Web-Developer*innen zur Kampagnenumsetzung <br>
+Betreuung und Support der Premium-Store-Betreiber*innen im DACH-Raum sowie im Export"
+          />
+          <Details
             position="Praktikum Frontend"
             company="Netural GmbH"
             companyLink="https://www.netural.com/"

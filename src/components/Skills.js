@@ -7,17 +7,17 @@ const techSkills = [
   "Illustrator",
   "Premiere Pro",
   "JavaScript",
-  "TypeScript",
-  "Bootstrap",
   "Tailwind",
   "React",
   "Vue",
   "Angular",
   "Storyblok",
   "Typo3",
+  "Craft CMS",
   "Figma",
   "Balsamiq",
   "Canva",
+  "META Business Manager",
 ];
 
 const Skills = () => {
@@ -71,7 +71,7 @@ const Skills = () => {
               />
             </svg>
 
-            <div className="absolute top-[-25px] xs:top-[-15px] left-0 w-full h-full grid grid-cols-2 gap-3 px-6 py-12 place-items-center">
+            <div className="absolute top-[-25px] xs:top-[-15px] left-0 w-full h-full grid grid-cols-2 gap-2 px-6 py-12 place-items-center">
               {techSkills.map((skill, index) => (
                 <motion.div
                   key={index}
