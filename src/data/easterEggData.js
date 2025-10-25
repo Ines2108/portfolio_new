@@ -22,7 +22,7 @@ Heute weiß ich: Ich liebe es, mich zwischen Welten zu bewegen. Mal tief eintauc
 dann wieder rauszoomen, um Ideen zu formen, Interfaces zu gestalten oder Videos zum Leben zu erwecken. 
 Genau diese Abwechslung ist mein Ding. <br><br>
 Kleiner Fun Fact am Rande: Ich habe dieses Portfolio selbst programmiert – mit mehr Schweiß und Verzweiflungsausbrüchen 
-als Glücksmomenten. Aber immerhin läuft sie. Und sieht dabei ganz passabel aus, oder?`,
+als Glücksmomenten. Aber immerhin läuft es. Und sieht dabei ganz passabel aus, oder?`,
     image: [
       {
         src: code.src,
@@ -34,7 +34,7 @@ als Glücksmomenten. Aber immerhin läuft sie. Und sieht dabei ganz passabel aus
     title: "IT-nes – wie alles begann",
     index: "02 / 06",
     text: `Der Spitzname IT-nes ist mir in meinem allerersten IT-Job passiert.
-Damals beim Quereinstieg in der Grand Garage war ich die „Neue“ im Tech-Team.
+Damals beim Quereinstieg in der CAP Future GmbH war ich die „Neue“ im Tech-Team.
 Als ich das erste Mal am Code tüftelte, meinte eine Kollegin lachend:
 „Wow, du bist ja jetzt nicht mehr Ines, sondern IT-nes!“ <br>
 Der Name ist geblieben, auch durchs Studium hindurch, wo ich oft die erste Anlaufstelle bei IT-Fragen war.`,

@@ -208,6 +208,7 @@ export const projectsData = [
       ...imagevideoPost,
       alt: "Imagevideo Feuerwehr Postproduktion",
     },
+    youtube: "https://www.youtube.com/watch?v=r9zpEeE3vUM",
     sections: [
       {
         heading: "Worum ging’s?",
@@ -222,12 +223,12 @@ Ziel war es, die Arbeit der Feuerwehr authentisch und ansprechend darzustellen m
       Kamera- und Setaufbau. Besonders herausfordernd war der Einstieg in die Postproduktion: Wir hatten unglaublich viel Rohmaterial, 
       das uns anfangs ehrlich gesagt etwas überfordert hat. Doch sobald wir den ersten Schnitt angesetzt hatten, kamen wir immer besser 
       in den Flow und es war beeindruckend zu sehen, wie sich aus den vielen einzelnen Fragmenten eine durchdachte, emotionale Geschichte 
-      formen ließ.
+      formen ließ. <br>
+      
       Eine spannende Herausforderung war es außerdem, Interviews, Action-Szenen und Musik so aufeinander abzustimmen, dass ein 
       stimmiger Gesamteindruck entsteht.
-      Das fertige Video darf aktuell leider noch nicht öffentlich gezeigt werden, da die Feuerwehr es erst im Rahmen ihres Jubiläums 
-      im September offiziell präsentiert. <br>
-      Aber ich zeig’s gerne bei einem persönlichen Gespräch her. Spoiler: Es ist definitiv einen Blick wert 😉`,
+Das Video wurde inzwischen von der Feuerwehr Hagenberg veröffentlicht – mit einem Ergebnis, das sowohl sie als auch uns sehr 
+zufrieden macht.`,
       },
       {
         heading: "Eingesetzte Technologien & Tools",
