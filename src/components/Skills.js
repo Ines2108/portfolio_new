@@ -6,6 +6,7 @@ const techSkills = [
   "Photoshop",
   "Illustrator",
   "Premiere Pro",
+  "HTML/CSS",
   "JavaScript",
   "Tailwind",
   "React",
@@ -15,9 +16,8 @@ const techSkills = [
   "Typo3",
   "Craft CMS",
   "Figma",
-  "Balsamiq",
   "Canva",
-  "META Business Manager",
+  "META Business Suite",
 ];
 
 const Skills = () => {
