@@ -64,12 +64,12 @@ const Experience = () => {
             companyLink="https://www.rika.at/"
             time="Sep. 2025 - jetzt"
             address="Müllerviertel 20, 4563 Micheldorf"
-            work="Planung und Steuerung von Online-Marketing-Kampagnen <br>
-Erstellung von Landingpages <br>
-Weiterentwicklung des CMS (Craft) <br>
-Projektmanagement und Schnittstelle zu externen Agenturen <br>
-Enge Zusammenarbeit mit Texter*innen, Grafiker*innen und Web-Developer*innen zur Kampagnenumsetzung <br>
-Betreuung und Support der Premium-Store-Betreiber*innen im DACH-Raum sowie im Export"
+            work="Konzeption und Umsetzung von Online-Marketing-Kampagnen <br>
+Erstellung performanter Landingpages sowie laufende Pflege der Website-Inhalte <br>
+Weiterentwicklung und Betreuung des CMS (Craft) <br>
+Entwicklung von Ad-Creatives und zielgruppenorientierten Anzeigentexten <br>
+Projektmanagement sowie Abstimmung mit externen Partnern <br>
+Betreuung und Support der Premium-Store-Betreiber*innen im DACH-Raum und Export"
           />
           <Details
             position="Praktikum Frontend"
