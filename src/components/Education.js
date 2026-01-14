@@ -57,7 +57,7 @@ const Education = () => {
           <Details
             education="Bachelor of Science in Kommunikation, Wissen, Medien"
             school="FH Hagenberg"
-            companyLink="https://fh-ooe.at/campus-hagenberg"
+            schoolLink="https://fh-ooe.at/campus-hagenberg"
             time="Okt. 2022 - Juli 2025"
             address="Softwarepark 11, 4232 Hagenberg"
             note="Schwerpunkte: Online Marketing, E-Learning, Web Development, Human-Computer-Interaction"
@@ -66,14 +66,14 @@ const Education = () => {
             education="Zertifizierung Google Ads-Suchmaschinenwerbung"
             time="Juli 2024 - Juli 2025"
             school="FH Hagenberg"
-            companyLink="https://fh-ooe.at/campus-hagenberg"
+            schoolLink="https://fh-ooe.at/campus-hagenberg"
             address="Softwarepark 11, 4232 Hagenberg"
           />
           <Details
             education="Bilanzbuchhalter- und Buchhalterprüfung"
             time="Okt. 2015 - Juni 2018"
             school="WIFI Wels"
-            companyLink="https://www.wifi-ooe.at/"
+            schoolLink="https://www.wifi-ooe.at/"
             address="Dr.-Koss-Straße 4, 4600 Wels"
             note="Beides mit sehr gutem Erfolg abgeschlossen"
           />
@@ -81,7 +81,7 @@ const Education = () => {
             education="HAK Matura"
             time="Sept. 2008 - Juni 2013"
             school="Bundeshandelsakademie I Wels"
-            companyLink="https://hakwels.at/bildungsangebot/hak/"
+            schoolLink="https://hakwels.at/bildungsangebot/hak/"
             address="Stelzhamerstraße 20, 4600 Wels"
             note="Mit gutem Erfolg abgeschlossen <br>
             Schwerpunkt: Kommunikation und Sozialmanagement"
