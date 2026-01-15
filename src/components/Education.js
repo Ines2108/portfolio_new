@@ -62,13 +62,13 @@ const Education = () => {
             address="Softwarepark 11, 4232 Hagenberg"
             note="Schwerpunkte: Online Marketing, E-Learning, Web Development, Human-Computer-Interaction"
           />
-          <Details
+          {/* <Details
             education="Zertifizierung Google Ads-Suchmaschinenwerbung"
             time="Juli 2024 - Juli 2025"
             school="FH Hagenberg"
             schoolLink="https://fh-ooe.at/campus-hagenberg"
             address="Softwarepark 11, 4232 Hagenberg"
-          />
+          /> */}
           <Details
             education="Bilanzbuchhalter- und Buchhalterprüfung"
             time="Okt. 2015 - Juni 2018"
