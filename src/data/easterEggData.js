@@ -16,13 +16,13 @@ Einfach mal drüberhovern, reinlesen, schmunzeln.`,
     title: "Mehr als Code – mein kreativer Aha-Moment",
     index: "01 / 06",
     text: `Ich dachte lange, mein Herz schlägt ausschließlich für Code.
-Doch während meines Frontend-Praktikums habe ich gemerkt: Da geht noch mehr. Mir fehlt der kreative Spielraum – 
-das Gestalten, Konzipieren, Erzählen.
-Heute weiß ich: Ich liebe es, mich zwischen Welten zu bewegen. Mal tief eintauchen in Technik und Logik, 
-dann wieder rauszoomen, um Ideen zu formen, Interfaces zu gestalten oder Videos zum Leben zu erwecken. 
+Doch während meines Frontend-Praktikums habe ich gemerkt: Da geht noch mehr. Mir fehlte der kreative Spielraum, 
+das Gestalten, Konzipieren und Erzählen.
+Heute weiß ich, dass ich es liebe, mich zwischen Welten zu bewegen. Mal tauche ich tief in Technik 
+und Logik ein, dann zoome ich wieder heraus, um Ideen zu formen, Interfaces zu gestalten oder Videos zum Leben zu erwecken.
 Genau diese Abwechslung ist mein Ding. <br><br>
-Kleiner Fun Fact am Rande: Ich habe dieses Portfolio selbst programmiert – mit mehr Schweiß und Verzweiflungsausbrüchen 
-als Glücksmomenten. Aber immerhin läuft es. Und sieht dabei ganz passabel aus, oder?`,
+Kleiner Fun Fact am Rande: Ich habe dieses Portfolio selbst programmiert, mit mehr Schweiß und Verzweiflungsausbrüchen als Glücksmomenten.
+ Aber immerhin läuft es. Und sieht dabei ganz in Ordnung aus, oder?`,
     image: [
       {
         src: code.src,
@@ -57,13 +57,14 @@ Gerne bring ich auch Kolleg*innen nach Feierabend zum Schwitzen 😄`,
   travel: {
     title: "Abenteuerlustig mit Bauchkribbeln",
     index: "04 / 06",
-    text: `Nach meiner Zeit bei Hofer habe ich mir eine kleine Auszeit gegönnt – sechs Wochen ganz allein durch Australien. <br>
-Eine Reise, die nicht nur mein Englisch, sondern vor allem meine Reiselust und Neugier aufs Unbekannte geweckt hat. <br>
-Seitdem zieht’s mich immer wieder hinaus in die Welt: <br>
+    text: `Nach meiner Zeit bei Hofer habe ich mir eine kleine Auszeit gegönnt und bin sechs Wochen ganz allein durch Australien gereist. 
+    Eine Reise, die nicht nur mein Englisch verbessert hat, sondern vor allem meine Reiselust und meine Neugier auf das Unbekannte geweckt hat. <br>
+Seitdem zieht es mich immer wieder hinaus in die Welt. <br>
 Fallschirmspringen in Australien? Check. <br>
 Tauchen mit Walhaien auf den Philippinen? Check. <br>
-Ich liebe es, Neues auszuprobieren. Hauptsache, es kitzelt ein bisschen im Bauch. <br>
-Und keine Sorge: Auch beruflich lande ich immer wieder sicher. Meistens sogar auf beiden Beinen 😉`,
+Ich liebe es, Neues auszuprobieren, solange es ein kleines Kribbeln im Bauch verursacht. 
+Und keine Sorge: Auch beruflich lande ich immer wieder sicher.
+Zwar ohne Fallschirm, dafür mit Plan, Leidenschaft und beiden Beinen fest am Boden`,
     image: [
       {
         src: skydive.src,
@@ -80,8 +81,9 @@ Und keine Sorge: Auch beruflich lande ich immer wieder sicher. Meistens sogar au
     index: "05 / 06",
     text: `Ja, ich liebe Bücher. Nein, leider keine Biografien. Auch keine hochphilosophischen Werke. <br>
 Dafür aber umso mehr Feen, Drachen und ein bisschen Romantasy-Chaos. <br>
-Mein Herz schlägt für Velaris und für A Court of Thorns and Roses. <br>
-Falls du das auch feierst (oder zumindest kennst): Welcome to the Night Court. Wenn nicht – auch nicht schlimm, immerhin liest du gerade mein Portfolio 😄`,
+Mein Herz schlägt für fantastische Welten, starke Figuren und Geschichten, in denen man komplett versinken kann.
+Wenn du das nachvollziehen kannst, sind wir uns vermutlich sympathisch. Wenn nicht, auch okay. 
+Immerhin bist du noch hier und liest mein Portfolio 😄`,
     image: [
       {
         src: kindle.src,
@@ -94,7 +96,7 @@ Falls du das auch feierst (oder zumindest kennst): Welcome to the Night Court. W
     index: "06 / 06",
     text: `Sonne, frische Luft, gute Gesellschaft und vielleicht ein kaltes Bier oder ein Glaserl Wein:
 Mehr brauch ich nicht, um glücklich zu sein. <br>
-Ob mit Familie, Freund*innen oder Kolleg*innen – am liebsten sitze ich draußen, witzle herum und genieße einfach den Moment. <br>
+Ob mit Familie, Freund*innen oder Kolleg*innen, am liebsten sitze ich draußen, witzle herum und genieße einfach den Moment. <br>
 (Apropos: Wenn du bis hierher alle Easter Eggs gefunden hast – Prost! Das war das letzte 🎉)`,
     image: [
       {

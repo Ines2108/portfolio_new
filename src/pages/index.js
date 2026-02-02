@@ -108,17 +108,19 @@ export default function Home() {
                 top: `clamp(3rem, 12vw, 8rem)`,
               }}>
               <div className="text-[clamp(1.5rem,2vw,5rem)] leading-[clamp(2rem,2vw,5.5rem)] text-right text-primary">
-                UX/UI-Designer |{" "}
-                <Popup
-                  title={easterEggData.frontend.title}
-                  text={easterEggData.frontend.text}
-                  index={easterEggData.frontend.index}
-                  image={easterEggData.frontend.image}>
-                  <span className="cursor-pointer hover:text-secundary transition">
-                    Frontend Developer
-                  </span>
-                </Popup>{" "}
-                | Marketer
+                <div>Marketer |</div>
+                <div>UX/UI-Designer |</div>
+                <div>
+                  <Popup
+                    title={easterEggData.frontend.title}
+                    text={easterEggData.frontend.text}
+                    index={easterEggData.frontend.index}
+                    image={easterEggData.frontend.image}>
+                    <span className="cursor-pointer hover:text-secundary transition">
+                      Frontend Developer
+                    </span>
+                  </Popup>
+                </div>
               </div>
             </div>
 

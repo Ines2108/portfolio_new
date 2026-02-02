@@ -147,7 +147,7 @@ export const projectsData = [
         heading: "Worum ging’s?",
         text: `Im Rahmen eines zweitägigen Design Thinking Workshops haben wir die grundlegenden Prinzipien 
       der Methode kennengelernt und sie direkt auf ein reales Szenario angewendet: Wie kann die Nutzung einer 
-      komplexen Home-Energy-Management-App – konkret der PV-App von Fronius – für Endnutzer:innen spannender, 
+      komplexen Home-Energy-Management-App – konkret der PV-App von Fronius – für Endnutzer*innen spannender, 
       intuitiver und motivierender gestaltet werden? Ziel war es, Barrieren abzubauen, Motivation zu fördern 
       und Funktionen an den tatsächlichen Bedürfnissen auszurichten. 
       Zum Abschluss präsentierten wir unsere Lösungsideen in einem Pitch.`,
