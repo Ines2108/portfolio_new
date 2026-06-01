@@ -7,7 +7,7 @@ const AboutText = () => {
     <>
       <div className="mt-4 lg:-mt-32 flex justify-end">
         <h2 className="mb-6 w-5/6 text-2xl font-montserrat sm:text-3xl md:text-4xl xl:text-5xl text-primary text-right normal-case">
-          Hi, ich bin Ines, aber man nennt mich auch gerne{" "}
+          Schön, dass du da bist. Ich bin Ines – und manchmal auch einfach{" "}
           <Popup
             title={easterEggData.itnes.title}
             text={easterEggData.itnes.text}
@@ -53,8 +53,8 @@ const AboutText = () => {
               STRONG Nation® Kurs
             </span>
           </Popup>{" "}
-          als motivierende Antreiberin, oder in den Bergen – und zuhause beim
-          Spielen, Kuscheln und Zeitverbringen mit meinen zwei Katzen.
+          als motivierende Antreiberin, auf Reisen, in den Bergen – oder zuhause
+          beim Spielen, Kuscheln und Zeitverbringen mit meinen zwei Katzen.
         </div>
       </div>
     </>

@@ -76,7 +76,7 @@ const ProjectCardBase = ({
         </div>
 
         <div className={`flex justify-center flex-col ${layoutConfig.content}`}>
-          <span className="text-lg font-semibold text-primary">{type}</span>
+          <span className="text-lg text-primary">{type}</span>
           <h2 className={`font-bold mt-2 ${layoutConfig.title}`}>{title}</h2>
           {showSummary && summary && (
             <p
