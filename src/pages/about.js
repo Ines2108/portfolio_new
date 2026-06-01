@@ -26,7 +26,7 @@ const about = () => {
         <Layout className="pt-16">
           <AnimatedHeadline text="Das bin ich" className="text-primary" />
           {/* About Section */}
-          <section className="about-section relative max-w-[1800px] w-full mx-auto flex flex-col-reverse lg:flex-row items-center lg:items-start mt-10 mb-36 md:mb-4 lg:mb-32">
+          <section className="about-section relative max-w-[1800px] w-full mx-auto flex flex-col-reverse lg:flex-row items-center lg:items-start mt-4 md:mt-10 mb-36 md:mb-16">
             <div className="w-full h-full self-center lg:w-1/2 flex justify-center lg:justify-start pl-0 xl:pl-16 xxl:pl-36 pt-12">
               <PolaroidImages />
             </div>

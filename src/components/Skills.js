@@ -105,7 +105,7 @@ const Skills = () => {
               />
             </svg>
 
-            <div className="absolute top-0 lg:top-[18px] left-0 w-full h-full max-h-[85%] grid grid-cols-3 gap-4 px-8 pt-16 place-items-center">
+            <div className="absolute top-0 lg:top-[18px] left-0 w-full h-full max-h-[85%] grid grid-cols-3 gap-4 px-8 pt-20 place-items-center">
               {techSkills.map((skill, index) => (
                 <motion.div
                   key={index}

@@ -6,7 +6,7 @@ const AboutText = () => {
   return (
     <>
       <div className="mt-4 lg:-mt-32 flex justify-end">
-        <h2 className="mb-6 w-5/6 text-2xl font-montserrat sm:text-3xl md:text-4xl xl:text-5xl text-primary text-right normal-case">
+        <h2 className="mb-0 md:mb-6 w-5/6 text-2xl font-montserrat sm:text-3xl md:text-4xl xl:text-5xl text-primary text-right normal-case">
           Schön, dass du da bist. Ich bin Ines – und manchmal auch einfach{" "}
           <Popup
             title={easterEggData.itnes.title}
