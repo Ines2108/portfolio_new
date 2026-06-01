@@ -370,7 +370,7 @@ zufrieden macht.`,
     },
     link: {
       label: "zum Figma-Projekt",
-      href: "https://www.figma.com/design/2KtrXqVTQHjVO0Y7LtKlKr/Team-F-Prototype?node-id=0-1&t=UxsAzrRZcCZp9NiD-1",
+      href: "https://www.figma.com/design/snjsC80YdfxwOUcH6JKUxn/Team-F-Prototype?node-id=0-1&t=OnfTE00rEVf9O2gF-1",
     },
     youtube: "https://www.youtube.com/watch?v=_5flTeJG_m0",
     sections: [

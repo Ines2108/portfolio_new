@@ -6,7 +6,7 @@ const AboutText = () => {
   return (
     <>
       <div className="mt-4 lg:-mt-32 flex justify-end">
-        <h2 className="w-5/6 text-2xl font-montserrat font-bold sm:text-3xl md:text-4xl xl:text-5xl text-primary text-right normal-case">
+        <h2 className="mb-6 w-5/6 text-2xl font-montserrat sm:text-3xl md:text-4xl xl:text-5xl text-primary text-right normal-case">
           Hi, ich bin Ines, aber man nennt mich auch gerne{" "}
           <Popup
             title={easterEggData.itnes.title}
@@ -27,20 +27,19 @@ const AboutText = () => {
         </p>
         <br />
         <p>
-          Früher habe ich mich in der Finanzwelt durch Tabellen gekämpft bis mir
-          klar wurde: Mein Herz schlägt nicht für Zahlen, sondern für kreative
-          Ideen und dafür, ihnen Ausdruck zu verleihen. Seitdem bin ich mit
-          Leidenschaft in der digitalen Welt unterwegs – irgendwo zwischen
-          UX/UI-Design, Marketing, Videoschnitt und dem Entdecken neuer Tools,
-          die das Arbeiten leichter und spannender machen.
+          Mein Weg hat in der Finanzwelt begonnen. Dort habe ich schnell
+          gemerkt: Zahlen kann ich, aber wirklich gut bin ich darin, Ideen
+          sichtbar zu machen.
         </p>
         <br />
         <p>
-          Ich bin eine kreative Allrounderin, die technische Raffinesse gerne
-          mit Ästhetik verbindet. Ob ich gerade eine Benutzeroberfläche
-          optimiere, eine Videokampagne schneide oder ein Konzept zaubere – ich
-          liebe es, Dinge zu erschaffen, die nicht nur hübsch aussehen, sondern
-          auch Sinn machen und Emotionen auslösen.
+          Heute arbeite ich im digitalen Marketing an der Schnittstelle von
+          Konzept, Design und Umsetzung. Mich interessiert nicht nur, wie etwas
+          aussieht, sondern vor allem, ob es funktioniert. Deshalb verbinde ich
+          UX/UI, Content, Kampagnen und Video so, dass daraus stimmige
+          Gesamterlebnisse entstehen – durchdacht, klar und mit Wirkung. Ich
+          probiere gern neue Tools aus, denke mich schnell in Themen rein und
+          hinterfrage Dinge, die „man schon immer so gemacht hat“.
         </p>
         <br />
         <div className="space-y-4 font-montserrat text-base xl:text-lg text-justify">
@@ -54,10 +53,8 @@ const AboutText = () => {
               STRONG Nation® Kurs
             </span>
           </Popup>{" "}
-          als motivierende Antreiberin, beim Wandern auf dem nächsten Gipfel
-          oder beim Relaxen mit meinen zwei flauschigen Katzen. Ich liebe es,
-          unterwegs zu sein, neue Menschen und Kulturen kennenzulernen und die
-          Welt aus möglichst vielen Blickwinkeln zu betrachten.
+          als motivierende Antreiberin, oder in den Bergen – und zuhause beim
+          Spielen, Kuscheln und Zeitverbringen mit meinen zwei Katzen.
         </div>
       </div>
     </>

@@ -64,12 +64,13 @@ const Experience = () => {
             companyLink="https://www.rika.at/"
             time="Sep. 2025 - jetzt"
             address="Müllerviertel 20, 4563 Micheldorf"
-            work="Entwicklung und Umsetzung von Content- und Kampagnenideen über verschiedene Touchpoints hinweg <br>
-Gestaltung visueller Inhalte und Creatives für digitale Kanäle mit Fokus auf Markenwirkung <br>
-Konzeption, Aufbau und Optimierung von Landingpages mit Blick auf Nutzerführung, Storytelling und Conversion <br>
-Entwicklung von Ad-Creatives und zielgruppenorientierten Anzeigentexten <br>
-Strukturierte Pflege und Weiterentwicklung von Inhalten im CMS (Craft) <br>
-Enge Abstimmung mit Premium Stores und internationalen Marketingverantwortlichen zur Sicherstellung eines einheitlichen Markenauftritts"
+            work="Entwicklung und Umsetzung von Content- und Kampagnenideen über verschiedene Touchpoints hinweg – mit Fokus auf internationale Märkte und kanalübergreifende Konsistenz <br>
+Konzeption und Produktion visueller Inhalte und Creatives für digitale Kanäle – von der Idee bis zur Umsetzung (inkl. Video-Content und Shootings) <br>
+Konzeption und Umsetzung von Landingpages sowie punktuelle Optimierung bestehender Seiten mit Fokus auf Nutzerführung und Storytelling <br>
+Entwicklung und Steuerung von Performance-Kampagnen inklusive Ad-Creatives und zielgruppenorientierten Anzeigentexten <br>
+Strukturierte Pflege und Weiterentwicklung von Inhalten im CMS (Craft) sowie laufende Aktualisierung bestehender Seiten <br>
+Planung und Umsetzung von Social-Media-Aktivitäten – von der Content-Erstellung bis zur kanalübergreifenden Abstimmung und Sicherstellung eines konsistenten Markenauftritts <br>
+Enge Abstimmung mit internationalen Marketingverantwortlichen, Premium Stores sowie internen und externen Partnern"
           />
           <Details
             position="Praktikum Frontend"
