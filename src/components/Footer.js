@@ -4,7 +4,7 @@ import Layout from "./Layout";
 const Footer = () => {
   return (
     <footer className="relative py-2">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#E4C7C1] to-[#401922] rounded-2xl blur-xl opacity-15 h-full w-full"></div>
+      <div className="absolute inset-0 rounded-2xl blur-xl opacity-15 h-full w-full"></div>
 
       {/* Inhalt */}
       <div className="relative z-10 p-5 flex justify-center space-x-2">

@@ -79,12 +79,12 @@ const PolaroidImages = () => {
   return (
     <>
       {/* Mobile Version */}
-      <div className="relative xs:hidden mt-12 w-[90vw] max-w-[400px] h-[70vw] max-h-[500px]">
+      <div className="relative xs:hidden mt-6 w-[90vw] max-w-[400px] h-[70vw] max-h-[500px]">
         {renderImages(positionsSmall)}
       </div>
 
       {/* Desktop Version */}
-      <div className="relative hidden xs:block mt-12 w-[90vw] max-w-[400px] h-[70vw] max-h-[500px]">
+      <div className="relative hidden xs:block mt-4 lg:mt-12 w-[90vw] max-w-[400px] h-[70vw] max-h-[500px]">
         {renderImages(positionsLarge)}
       </div>
     </>

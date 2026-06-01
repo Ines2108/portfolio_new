@@ -12,7 +12,7 @@ const AnimatedHeadline = dynamic(
   () => import("@/components/AnimatedHeadline"),
   {
     ssr: false,
-  }
+  },
 );
 
 const about = () => {
@@ -27,14 +27,14 @@ const about = () => {
           <AnimatedHeadline text="Das bin ich" className="text-primary" />
           {/* About Section */}
           <section className="about-section relative max-w-[1800px] w-full mx-auto flex flex-col-reverse lg:flex-row items-center lg:items-start mt-10 mb-36 md:mb-4 lg:mb-32">
-            <div className="w-full h-full self-center lg:w-1/2 flex justify-center lg:justify-start pl-0 xl:pl-16 xxl:pl-36 pt-12">
+            <div className="w-full h-full self-center lg:w-1/2 flex justify-center lg:justify-start pl-4 xl:pl-16 xxl:pl-36 pt-12">
               <PolaroidImages />
             </div>
             <div className="w-full lg:w-1/2 px-0 lg:pl-10 xxl:pl-24 text-justify">
               <AboutText />
             </div>
           </section>
-          <section className="techStack-section relative w-full py-12">
+          <section className="techStack-section relative w-full py-8">
             <Skills />
           </section>
           <section className="cv-section relative max-w-[1500px] w-full mx-auto justify-center">
